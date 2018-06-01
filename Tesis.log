@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.5.30)  30 MAY 2018 22:34
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.5.30)  31 MAY 2018 16:54
 entering extended mode
 **./Tesis.tex
 (Tesis.tex
@@ -739,7 +739,7 @@ LaTeX Font Info:    Try loading font information for U+lasy on input line 94.
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 ) [3] [4] [5]
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <20.74> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 155.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 153.
  [6]
 [7]) [8]
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <24.88> not available
@@ -778,87 +778,98 @@ LaTeX Font Info:    Font shape `T1/ptm/bx/sc' in size <12> not available
 Cap\'{\i }tulo 1.
 [1
 
-] [2] [3] [4]
+] [2]
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <14.4> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 79.
- [5] [6] [7] [8] [9] [10]
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 71.
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 73.
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\omsptm.fd"
+File: omsptm.fd 
+)
+LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 73.
+ [3] [4]
+[5] [6] [7] [8] [9]
 Cap\'{\i }tulo 2.
-[11
-
-]
-<Figura2.jpg, id=88, 146.4672pt x 146.949pt>
-File: Figura2.jpg Graphic file (type jpg)
-<use Figura2.jpg>
-Package pdftex.def Info: Figura2.jpg  used on input line 181.
-(pdftex.def)             Requested size: 136.57462pt x 137.03561pt.
- [12]
-<Figura1.jpg, id=92, 150.3216pt x 149.8398pt>
+<Figura1.jpg, id=81, 408.77719pt x 187.45032pt>
 File: Figura1.jpg Graphic file (type jpg)
 <use Figura1.jpg>
-Package pdftex.def Info: Figura1.jpg  used on input line 206.
-(pdftex.def)             Requested size: 136.57462pt x 136.14406pt.
- [13 <./Figura2.jpg>] [14 <./Figura1.jpg>]
-Overfull \hbox (7.80678pt too wide) in paragraph at lines 238--255
+Package pdftex.def Info: Figura1.jpg  used on input line 162.
+(pdftex.def)             Requested size: 273.14923pt x 125.26212pt.
+[10
+
+] [11 <./Figura1.jpg>]
+<Figura2.jpg, id=89, 146.4672pt x 146.949pt>
+File: Figura2.jpg Graphic file (type jpg)
+<use Figura2.jpg>
+Package pdftex.def Info: Figura2.jpg  used on input line 184.
+(pdftex.def)             Requested size: 136.57462pt x 137.03561pt.
+ [12 <./Figura2.jpg>]
+File: Figura1.jpg Graphic file (type jpg)
+<use Figura1.jpg>
+Package pdftex.def Info: Figura1.jpg  used on input line 209.
+(pdftex.def)             Requested size: 136.57462pt x 62.62819pt.
+ [13]
+Overfull \hbox (7.80678pt too wide) in paragraph at lines 241--258
 [] 
  []
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[15] [16]
+[14] [15]
 Cap\'{\i }tulo 3.
-[17
+[16
 
 ]
-<Figura3.jpg, id=110, 290.0436pt x 185.493pt>
+<Figura3.jpg, id=106, 290.0436pt x 185.493pt>
 File: Figura3.jpg Graphic file (type jpg)
 <use Figura3.jpg>
-Package pdftex.def Info: Figura3.jpg  used on input line 279.
+Package pdftex.def Info: Figura3.jpg  used on input line 282.
 (pdftex.def)             Requested size: 273.14923pt x 174.69458pt.
- [18 <./Figura3.jpg>]
+ [17 <./Figura3.jpg>]
 Cap\'{\i }tulo 4.
-[19
+[18
 
 ]
 Cap\'{\i }tulo 5.
-[20
+[19
 
-]) (Tesis.bbl [21] [22
+]) (Tesis.bbl [20] [21
 
-]) (Apendice.tex [23]
+]) (Apendice.tex [22]
 Ap\'{e}ndice A.
-[24
+[23
 
 ]
 Ap\'{e}ndice B.
-[25
+[24
 
 ]
 Ap\'{e}ndice C.
-) [26
+) [25
 
 ] (Tesis.aux
 LaTeX Info: Redefining \. on input line 7.
 LaTeX Info: Redefining \% on input line 7.
 ) ) 
 Here is how much of TeX's memory you used:
- 5741 strings out of 493305
- 74321 string characters out of 3138874
- 169475 words of memory out of 3000000
- 9116 multiletter control sequences out of 15000+200000
+ 5751 strings out of 493305
+ 74515 string characters out of 3138874
+ 169419 words of memory out of 3000000
+ 9123 multiletter control sequences out of 15000+200000
  58170 words of font info for 73 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,12n,35p,794b,434s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 41i,12n,35p,1128b,434s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<C:/Program Files/M
 iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX 2.
 9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX 2.9/fonts/t
 ype1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publ
-ic/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utm
-b8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Progr
-am Files/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Tesis.pdf (40 pages, 256174 bytes).
+ic/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/ut
+mb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Prog
+ram Files/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
+Output written on Tesis.pdf (39 pages, 248995 bytes).
 PDF statistics:
- 165 PDF objects out of 1000 (max. 8388607)
+ 162 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  21 words of extra memory for PDF output out of 10000 (max. 10000000)
 
