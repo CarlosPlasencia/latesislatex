@@ -541,11 +541,11 @@ Con todo esto Izard llegó a la conclusión de que había 8 emociones que cumpl�
 Mucho antes de que en los años 90 estos psicólogos determinarán las características que diferencian cada emoción, otros intelectuales también repararon en el origen genético de algunas expresiones faciales.
 \vskip 0.1cm
 Aristóteles dijo “Hay expresiones de la cara características que son observables para acompañar la cólera el miedo, la excitación erótica y todas otras pasiones”.
-En el siglo XIX fueron Darwin y Guillaume Duchenne, posteriormente Silvan Tomkis en el siglo XX, hasta que llegó Paul Ekman [8].
+En el siglo XIX fueron Darwin y Guillaume Duchenne, posteriormente Silvan Tomkis en el siglo XX, hasta que llegó Paul Ekman \citep{Bartual}.
 \vskip 0.1cm
 Para Ekman la expresión facial es, junto con la mirada, el medio más rico e importante para expresar emociones y estados de ánimo. A través del conocimiento y de la observación de las expresiones faciales (es decir, la cara en movimiento y no como un objeto estático) podemos conseguir una mejor comprensión de lo que nos comunican los demás. Además de manifestar las emociones, la expresión facial se usa principalmente para:  Regular la interacción y reforzar al receptor.
 \vskip 0.1cm
-Las emociones principales son siete: la tristeza, la ira, la sorpresa, el miedo, el asco, el desprecio y la alegría. La mayor contribución de Ekman en el estudio de las emociones fue demostrar a través de estudios muy completos y muchas fotografías que el rostro de las emociones es universal y se refleja de forma muy similar en cualquier cultura y raza [1].
+Las emociones principales son siete: la tristeza, la ira, la sorpresa, el miedo, el asco, el desprecio y la alegría. La mayor contribución de Ekman en el estudio de las emociones fue demostrar a través de estudios muy completos y muchas fotografías que el rostro de las emociones es universal y se refleja de forma muy similar en cualquier cultura y raza \citep{Ekman}.
 
 \begin{figure}[ht]
 \begin{center}
@@ -554,7 +554,7 @@ Las emociones principales son siete: la tristeza, la ira, la sorpresa, el miedo,
 \begin{center}
 \vskip -0.5cm
 \caption{\small{Expresiones faciales según Ekman.}}
-{\small{Fuente: \cite{FALTA}}}
+{\small{Fuente: \cite{Ekman}}}
 \end{center}
 \end{figure}
 
@@ -562,7 +562,7 @@ Las emociones principales son siete: la tristeza, la ira, la sorpresa, el miedo,
 
 \section{Reconocimiento de expresiones faciales}
 
-El reconocimiento de expresiones faciales es un área del reconocimiento de patrones que ha sido investigada desde hace varios años. Durante todo este tiempo se han propuesto técnicas diferentes para la resolución de esta tarea, entre las que se pueden mencionar[4]:
+El reconocimiento de expresiones faciales es un área del reconocimiento de patrones que ha sido investigada desde hace varios años. Durante todo este tiempo se han propuesto técnicas diferentes para la resolución de esta tarea, entre las que se pueden mencionar \citep{Rafael}
 
 \begin{itemize}
 \item Igualamiento de plantillas
@@ -570,7 +570,7 @@ El reconocimiento de expresiones faciales es un área del reconocimiento de patr
 \item Métodos que utilizan redes neuronales
 \end{itemize}
 
-Independientemente de la técnica que sea implementada, se utilizan siempre dos conjuntos de datos[5]:
+Independientemente de la técnica que sea implementada, se utilizan siempre dos conjuntos de datos \citep{Santos}:
 
 \begin{itemize}
 \item[•] El primero es utilizado siempre para la etapa de aprendizaje, el cual es llamado conjunto de entrenamiento. Se debe tratar de que los patrones que integran este conjunto sean lo más diferente posible entre sí, y que además, representen al problema, para poder tener un buen porcentaje de generalización.
@@ -710,9 +710,9 @@ La gran mayoría de imágenes de expresión facial tienen un pobre contraste. Es
 
 \begin{itemize}
 {\bf \item[•] Ampliación del contraste} \vskip 0.1cm
-La idea de esta técnica es aumentar el valor de intensidad minimo y maximo de los niveles de gris de una imagen. La manipulación clásica de contraste se basa en una ampliación definida globalmente, esta función(figura 3.8 (a)) se define por un perfil de transformación elegido de forma apropiada para lograr el incremento de contraste deseado[10]. 
+La idea de esta técnica es aumentar el valor de intensidad minimo y maximo de los niveles de gris de una imagen. La manipulación clásica de contraste se basa en una ampliación definida globalmente, esta función(figura 2.11 (a)) se define por un perfil de transformación elegido de forma apropiada para lograr el incremento de contraste deseado \citep{Zeyun}. 
 \vskip 0.1cm
-Una forma general de transformación se muestra en la ecuación ****, en donde Si son los valores que separan los diferentes modos del histograma y L es el valor de nivel de gris máximo. 
+Una forma general de transformación se muestra en la ecuación 2.1, en donde Si son los valores que separan los diferentes modos del histograma y L es el valor de nivel de gris máximo. 
 
 \begin{equation}
 f(x)= \left\{ \begin{array}{lcc}
@@ -734,24 +734,24 @@ Difiere de la ecualización del histograma en que solo puede aplicarse una funci
 \begin{center}
 \vskip -0.5cm
 \caption{\small{Aumento del contraste (a) función de transformación (b) imagen con bajo contraste (c) resultado de aumento del contraste.}}
-{\small{Fuente: \cite{FALTA}}}
+{\small{Fuente: \cite{Zeyun}}}
 \end{center}
 \end{figure}
 
 {\bf \item[•] Ecualización por Histograma} \vskip 0.1cm
-La ecualización del histograma se basa en lograr una distribución más uniforme entre el número de píxeles referido con respecto a los diferentes niveles de intensidad (NI) que presenta en la imagen. Su función radica en aumentar y disminuir al mismo tiempo el contraste de la imagen, mediante el incremento y reducción de los NI que se encuentran más cercanos al valor máximo y mínimo del histograma respectivamente. Matemáticamente la ecualización del histograma H(Q) se define como [6]:
+La ecualización del histograma se basa en lograr una distribución más uniforme entre el número de píxeles referido con respecto a los diferentes niveles de intensidad (NI) que presenta en la imagen. Su función radica en aumentar y disminuir al mismo tiempo el contraste de la imagen, mediante el incremento y reducción de los NI que se encuentran más cercanos al valor máximo y mínimo del histograma respectivamente. Matemáticamente la ecualización del histograma H(Q) se define como \citep{Pajares}
 
 \begin{equation}
 H(Q)=\frac{L-1}{n*m} 
 \displaystyle\sum_{j=0}^{Q} h_f (j)
 \end{equation}
 
-Donde Donde L es el valor máximo del conjunto Q= {0, ..., Q - 1} que representa los q Niveles de Intensidad (NI) de la imagen f: n x m $\rightarrow$ Q x Q con dimensión de (n x m) y donde hf es el histograma de la imagen f[6]. \vskip 0.1cm
-Debido a la redistribución de esta probabilidad de ocurrencia de niveles de grises de una manera uniforme, la percepción de los detalles de la imagen mejora. De la ecuación anterior se pueden derivar diferentes tipos de ecualizaciones, siendo las más conocidas ecualización uniforme, exponencial y la de Rayleigh [6]. \vskip 0.1cm
+Donde Donde L es el valor máximo del conjunto Q= {0, ..., Q - 1} que representa los q Niveles de Intensidad (NI) de la imagen f: n x m $\rightarrow$ Q x Q con dimensión de (n x m) y donde hf es el histograma de la imagen. \vskip 0.1cm
+Debido a la redistribución de esta probabilidad de ocurrencia de niveles de grises de una manera uniforme, la percepción de los detalles de la imagen mejora. De la ecuación anterior se pueden derivar diferentes tipos de ecualizaciones, siendo las más conocidas ecualización uniforme, exponencial y la de Rayleigh \citep{Pajares}. \vskip 0.1cm
 [6] PAJARES MARTÍ SANZ, Arturo y DE LA CRUZ, Jesús M. Visión por computador, imágenes digitales y aplicaciones. España, 2001.
 
 {\bf \item[•] Filtro paso alto} \vskip 0.1cm
-Según [15] los filtros paso alto realizan un realzado de los detalles de la imagen. Este tipo de filtros atenúa las zonas uniformes y enfatiza los detalles de interés. Al contrario que los filtros paso bajo, elimina el componente media. Permitir el paso de las altas frecuencias produce como resultado una imagen llena de bordes y discontinuidades en la que la eliminación de los términos de baja frecuencia produce una reducción significativa del contraste global de la imagen. Debe tener coeficientes negativos en la periferia y positivos en el centro, y la suma de todos ellos debe ser cero. Así, cuando la máscara se encuentre sobre una zona uniforme, la salida proporcionada por la máscara será cero o próxima a dicho valor (Figura 2.15).
+Según \citep{Enrique} los filtros paso alto realizan un realzado de los detalles de la imagen. Este tipo de filtros atenúa las zonas uniformes y enfatiza los detalles de interés. Al contrario que los filtros paso bajo, elimina el componente media. Permitir el paso de las altas frecuencias produce como resultado una imagen llena de bordes y discontinuidades en la que la eliminación de los términos de baja frecuencia produce una reducción significativa del contraste global de la imagen. Debe tener coeficientes negativos en la periferia y positivos en el centro, y la suma de todos ellos debe ser cero. Así, cuando la máscara se encuentre sobre una zona uniforme, la salida proporcionada por la máscara será cero o próxima a dicho valor (Figura 2.12).
 
 \begin{figure}[ht]
 \begin{center}
@@ -760,7 +760,7 @@ Según [15] los filtros paso alto realizan un realzado de los detalles de la ima
 \begin{center}
 \vskip -0.5cm
 \caption{\small{Máscara de convolución de 3x3 Kernel.}}
-{\small{Fuente: \cite{FALTA}}}
+{\small{Fuente: \cite{Enrique}}}
 \end{center}
 \end{figure}
 
@@ -778,13 +778,13 @@ pretende eliminar algunas zonas de los píxeles del frente, siendo en general me
 \begin{center}
 \vskip -0.5cm
 \caption{\small{Imagen aplicada apertura.}}
-{\small{Fuente: \cite{FALTA}}}
+{\small{Fuente: \cite{Matlab}}}
 \end{center}
 \end{figure}
 
 \begin{enumerate}
 {\bf\item[B.1.1. ] EROSIÓN:}
-se superpone un kernel por todos los elementos del primer plano (valor 1) y si alguno se superpone a uno que valía 0, el elemento central pasará a valer 0. [20]
+se superpone un kernel por todos los elementos del primer plano (valor 1) y si alguno se superpone a uno que valía 0, el elemento central pasará a valer 0. \citep{Matlab}
 
 \begin{figure}[ht]
 \begin{center}
@@ -793,12 +793,12 @@ se superpone un kernel por todos los elementos del primer plano (valor 1) y si a
 \begin{center}
 \vskip -0.5cm
 \caption{\small{Imagen aplicada erosión.}}
-{\small{Fuente: \cite{FALTA}}}
+{\small{Fuente: \cite{Matlab}}}
 \end{center}
 \end{figure}
 
 {\bf\item[B.1.2. ] DILATACIÓN:}
-se pasa por los píxeles del fondo. Al superponerla por todos los elementos del fondo (por todos los 0), si está sobre algún píxel que valga 1, se pone el central también a 1. [20]
+se pasa por los píxeles del fondo. Al superponerla por todos los elementos del fondo (por todos los 0), si está sobre algún píxel que valga 1, se pone el central también a 1. \citep{Matlab}
 
 \begin{figure}[ht]
 \begin{center}
@@ -807,7 +807,7 @@ se pasa por los píxeles del fondo. Al superponerla por todos los elementos del 
 \begin{center}
 \vskip -0.5cm
 \caption{\small{Imagen aplicada dilatación.}}
-{\small{Fuente: \cite{FALTA}}}
+{\small{Fuente: \cite{Matlab}}}
 \end{center}
 \end{figure}
 
@@ -815,7 +815,7 @@ se pasa por los píxeles del fondo. Al superponerla por todos los elementos del 
 
 \vskip 1cm
 {\bf\item[B.2. ] Filtrado de mediana:}
-reduce el ruido en una imagen de una forma parecida a como lo hace el filtro de la media. Suele dar mejor resultado al preservar algunos detalles útiles de la imagen. El procedimiento es el siguiente: se toma el píxel y ocho vecinos - kernely se reemplaza el valor del píxel por la mediana de los valores. Para calcular la mediana se ordenan los píxeles en orden ascendente o descendente tomándose el valor del medio (valor 5). Si el entorno que se estudia contiene un número par de píxeles, se toma la mediana como la media aritmética de los dos valores centrales [20].
+reduce el ruido en una imagen de una forma parecida a como lo hace el filtro de la media. Suele dar mejor resultado al preservar algunos detalles útiles de la imagen. El procedimiento es el siguiente: se toma el píxel y ocho vecinos - kernely se reemplaza el valor del píxel por la mediana de los valores. Para calcular la mediana se ordenan los píxeles en orden ascendente o descendente tomándose el valor del medio (valor 5). Si el entorno que se estudia contiene un número par de píxeles, se toma la mediana como la media aritmética de los dos valores centrales \citep{Matlab}.
 
 \begin{figure}[ht]
 \begin{center}
@@ -824,7 +824,7 @@ reduce el ruido en una imagen de una forma parecida a como lo hace el filtro de 
 \begin{center}
 \vskip -0.5cm
 \caption{\small{Filtro de la mediana con máscara 3x3.}}
-{\small{Fuente: \cite{FALTA}}}
+{\small{Fuente: \cite{Matlab}}}
 \end{center}
 \end{figure}
 
@@ -837,7 +837,7 @@ G(x,y)=\frac{1}{\sigma^2}{e^{-\frac{x^2+y^2}{2\sigma^2}}}
 
 Donde $\sigma$ es la desviación estándar de la distribución. En la siguiente figura se da el ejemplo de una máscara de 5x5 para el filtro gaussiano con $\sigma$ = 1.0 
 \vskip 0.1cm
-El valor máximo aparece en el píxel de referencia y disminuye en función de la varianza establecida $\sigma$!. Por tanto, la contribución de cada píxel al valor final disminuye con la distancia. En la práctica, este tipo de filtros se utilizada como etapa de preprocesado para la detección de bordes u otras operaciones [15].
+El valor máximo aparece en el píxel de referencia y disminuye en función de la varianza establecida $\sigma$!. Por tanto, la contribución de cada píxel al valor final disminuye con la distancia. En la práctica, este tipo de filtros se utilizada como etapa de preprocesado para la detección de bordes u otras operaciones \citep{Enrique}.
 
 \end{enumerate}
 
@@ -848,9 +848,9 @@ El valor máximo aparece en el píxel de referencia y disminuye en función de l
 Cuando la imagen es mejorada pasa por un proceso de segmentación para aislar el rostro de la persona del resto de la imagen. Con la cara aislada, el sistema se enfoca en ubicar las posiciones de los gestos faciales con el objetivo de utilizar estas posiciones en el recorte de la imagen del rostro. Si esto no se logra para la imagen de entrada, el sistema tiene gran probabilidad de fallar en su reconocimiento.
 
 \subsubsection{Descriptor Haar}
-El esquema de detección de objetos propuesto por Viola \& Jones usando características de tipo Haar es uno de los algoritmos basados en AdaBoost más populares y de alto rendimiento. El mismo ha sido utilizado en la detección de rostros, detección de peatones y la detección de coches [3].
+El esquema de detección de objetos propuesto por Viola \& Jones usando características de tipo Haar es uno de los algoritmos basados en AdaBoost más populares y de alto rendimiento. El mismo ha sido utilizado en la detección de rostros, detección de peatones y la detección de coches \citep{Fernando}.
 \vskip 0.1cm
-Un detector de objetos basado en descriptores tipo Haar toma principalmente tres tipos de filtros digitales, para detectar orillas, líneas y diagonales. El valor de una característica de dos rectángulos es la diferencia entre la suma de los píxeles dentro de las dos regiones. Estas regiones tienen el mismo tamaño y la misma forma y son adyacentes vertical u horizontalmente. Una característica de tres rectángulos calcula la suma dentro de los rectángulos de las orillas y lo resta de la suma del rectángulo del centro. Finalmente una característica basada en cuatro rectángulos calcula la diferencia entre los pares diagonales de los rectángulos (ver figura) [4].
+Un detector de objetos basado en descriptores tipo Haar toma principalmente tres tipos de filtros digitales, para detectar orillas, líneas y diagonales. El valor de una característica de dos rectángulos es la diferencia entre la suma de los píxeles dentro de las dos regiones. Estas regiones tienen el mismo tamaño y la misma forma y son adyacentes vertical u horizontalmente. Una característica de tres rectángulos calcula la suma dentro de los rectángulos de las orillas y lo resta de la suma del rectángulo del centro. Finalmente una característica basada en cuatro rectángulos calcula la diferencia entre los pares diagonales de los rectángulos (figura 2.17) \citep{Lopez}.
 
 \begin{figure}[ht]
 \begin{center}
@@ -859,12 +859,12 @@ Un detector de objetos basado en descriptores tipo Haar toma principalmente tres
 \begin{center}
 \vskip -0.5cm
 \caption{\small{Características de Haar.}}
-{\small{Fuente: \cite{FALTA}}}
+{\small{Fuente: \cite{Lopez}}}
 \end{center}
 \end{figure}
 
 \subsubsection{Descriptor HOG (Histograma de Gradiente Orientado)}
-El método Histograma de Gradiente Orientado (HOG), propuesta por , se aplica para la detección humana. La idea básica de HOG se basa en que la observación en la apariencia local del objeto y la forma, pueden a menudo caracterizarse bastante bien por la distribución de los gradientes de intensidad locales o direcciones de bordes. Las características de HOG se derivan en base a una serie de orientaciones locales de histogramas de gradiente de la imagen bien normalizados en una densa red. En particular, la imagen se divide en pequeñas celdas. Para cada celda, un histograma local del gradiente, direcciones u orientaciones de borde, se acumula sobre los píxeles de la celda. Todos los histogramas dentro de las celdas de un bloque se normalizan para reducir el efecto de la variación de iluminación. Los bloques se pueden superponer entre sí para mejorar el rendimiento. Las características finales del HOG se forman mediante la concatenación de todos los histogramas normalizados en un único vector. A continuación se muestra en detalle el algoritmo del descriptor local HOG [4].
+El método Histograma de Gradiente Orientado (HOG), propuesta por , se aplica para la detección humana. La idea básica de HOG se basa en que la observación en la apariencia local del objeto y la forma, pueden a menudo caracterizarse bastante bien por la distribución de los gradientes de intensidad locales o direcciones de bordes. Las características de HOG se derivan en base a una serie de orientaciones locales de histogramas de gradiente de la imagen bien normalizados en una densa red. En particular, la imagen se divide en pequeñas celdas. Para cada celda, un histograma local del gradiente, direcciones u orientaciones de borde, se acumula sobre los píxeles de la celda. Todos los histogramas dentro de las celdas de un bloque se normalizan para reducir el efecto de la variación de iluminación. Los bloques se pueden superponer entre sí para mejorar el rendimiento. Las características finales del HOG se forman mediante la concatenación de todos los histogramas normalizados en un único vector. A continuación se muestra en detalle el algoritmo del descriptor local HOG \citep{Aguilar}.
 
 \begin{itemize}
 \item[•] Paso 1: Calcular el gradiente horizontal y vertical de la imagen de entrada mediante la convolución con una máscara derivativa.
@@ -894,7 +894,7 @@ V_{i}=\sum_{(x,y)\in C} \{ {N_g(x,y), O_g(x,y)\in Bin_i} \}
 \begin{center}
 \vskip -0.5cm
 \caption{\small{Cálculo de gradientes en esquema HOG.}}
-{\small{Fuente: \cite{FALTA}}}
+{\small{Fuente: \cite{Fernando}}}
 \end{center}
 \end{figure}
 
@@ -905,11 +905,11 @@ A continuación, se presentan algunas de las principales técnicas de descripci�
 
 \begin{enumerate}
 {\bf\item Análisis de componentes independientes (ICA):} \vskip 0.1cm
-El ICA es una generalización de PCA y a diferencia de este el ICA provee una mejor representación de la imagen ya que no se basa únicamente en estadísticas o relaciones entre píxeles de la imagen de segundo orden, sino que es sensible a dependencias estadísticas de alto orden y no solo la covarianza, lo que la hace de ICA una representación potente para las tareas de reconocimiento de rostros y de emociones [7]. 
+El ICA es una generalización de PCA y a diferencia de este el ICA provee una mejor representación de la imagen ya que no se basa únicamente en estadísticas o relaciones entre píxeles de la imagen de segundo orden, sino que es sensible a dependencias estadísticas de alto orden y no solo la covarianza, lo que la hace de ICA una representación potente para las tareas de reconocimiento de rostros y de emociones \citep{Willian}. 
 \vskip 0.1cm
-El problema que trata de resolver ICA consiste en recuperar un vector que contiene las señales originales independientes a las que se les denomina fuentes S, disponiendo, únicamente, de un vector de observaciones X las cuales son sumas ponderadas de las señales originales [8], mediante la expresión:  S = W * X
+El problema que trata de resolver ICA consiste en recuperar un vector que contiene las señales originales independientes a las que se les denomina fuentes S, disponiendo, únicamente, de un vector de observaciones X las cuales son sumas ponderadas de las señales originales \citep{Damian}, mediante la expresión:  S = W * X
 \vskip 0.1cm
-Para realizar esta tarea es por lo tanto necesario estimar una matriz de pesos W. Para obtener los pesos W, que se usan para obtener las componentes independientes (ICs), se maximiza la negentropía (medida de no Gaussianidad) y de esta forma se consigue minimizar la información mutua entre las señales de entrada. Es importante considerar que la estimación de ICA usando la no Gaussianidad, se puede simplificar haciendo que las observaciones X sean centradas y tengan varianza unitaria. Este preprocesamiento para ICA se consigue en dos pasos: el primero es sustraer de X su vector de media y el segundo es realizar un blanqueamiento de las variables observadas centradas, para esto se calcula una matriz de blanqueamiento dada por [8]:
+Para realizar esta tarea es por lo tanto necesario estimar una matriz de pesos W. Para obtener los pesos W, que se usan para obtener las componentes independientes (ICs), se maximiza la negentropía (medida de no Gaussianidad) y de esta forma se consigue minimizar la información mutua entre las señales de entrada. Es importante considerar que la estimación de ICA usando la no Gaussianidad, se puede simplificar haciendo que las observaciones X sean centradas y tengan varianza unitaria. Este preprocesamiento para ICA se consigue en dos pasos: el primero es sustraer de X su vector de media y el segundo es realizar un blanqueamiento de las variables observadas centradas, para esto se calcula una matriz de blanqueamiento dada por \citep{Damian}.
 
 \begin{equation}
 W_{z}={2(Cov(X))}^{-\frac{1}{2}}=2(XX^{T})^{-\frac{1}{2}}
@@ -921,7 +921,7 @@ De forma que los datos blanqueados se consiguen como:
 X_{blanqueado}=W_{z}*X_{centrado}
 \end{equation}
 
-El ICA sobre imágenes puede realizarse basándose en dos diferentes arquitecturas (Figura 2), la primera trata la imagen como una señal aleatoria y los píxeles como salidas y una segunda la cual trata los píxeles como variables aleatoria y las imágenes como salidas. La primera arquitectura produce imágenes bases estadísticamente independientes, sin embargo los coeficientes que codifican cada rostro no son necesariamente independientes, por lo que se requiere de una segunda arquitectura que use ICA para encontrar una representación en la cual los coeficientes usados para codificar las imágenes sean estadísticamente independientes [7].
+El ICA sobre imágenes puede realizarse basándose en dos diferentes arquitecturas (Figura 2), la primera trata la imagen como una señal aleatoria y los píxeles como salidas y una segunda la cual trata los píxeles como variables aleatoria y las imágenes como salidas. La primera arquitectura produce imágenes bases estadísticamente independientes, sin embargo los coeficientes que codifican cada rostro no son necesariamente independientes, por lo que se requiere de una segunda arquitectura que use ICA para encontrar una representación en la cual los coeficientes usados para codificar las imágenes sean estadísticamente independientes \citep{Willian}.
 
 \begin{figure}[ht]
 \begin{center}
@@ -930,14 +930,14 @@ El ICA sobre imágenes puede realizarse basándose en dos diferentes arquitectur
 \begin{center}
 \vskip -0.5cm
 \caption{\small{Arquitecturas 1 y 2 de ICA para imágenes.}}
-{\small{Fuente: \cite{FALTA}}}
+{\small{Fuente: \cite{Willian}}}
 \end{center}
 \end{figure}
 
 \vskip 3cm
 
 {\bf\item Patrón binario local (LBP):} \vskip 0.1cm
-LBP es un simple descriptor de textura propuesto por (Timo Ojala et al., 1996). El operador de textura LBP, que trabaja con un vecindario de 3x3, toma valores de los ocho píxeles vecinos, tomando como umbral para asignación binaria el valor del píxel central. A continuación los valores binarios se ponderan por potencias de dos y se suman para obtener el código LBP del píxel central [10]. La Figura 7 muestra un ejemplo del operador LBP.
+LBP es un simple descriptor de textura propuesto por (Timo Ojala et al., 1996). El operador de textura LBP, que trabaja con un vecindario de 3x3, toma valores de los ocho píxeles vecinos, tomando como umbral para asignación binaria el valor del píxel central. A continuación los valores binarios se ponderan por potencias de dos y se suman para obtener el código LBP del píxel central \citep{Adams}. La Figura 2.20 muestra un ejemplo del operador LBP.
 
 \begin{figure}[ht]
 \begin{center}
@@ -946,7 +946,7 @@ LBP es un simple descriptor de textura propuesto por (Timo Ojala et al., 1996). 
 \begin{center}
 \vskip -0.5cm
 \caption{\small{Un ejemplo del operador LBP.}}
-{\small{Fuente: \cite{FALTA}}}
+{\small{Fuente: \cite{Adams}}}
 \end{center}
 \end{figure}
 
@@ -966,7 +966,7 @@ s(z)= \left\{ \begin{array}{lcc}
    \right.
 \end{equation}
 
-La extensión es capaz de tomar cualquier radio y vecinos alrededor de un píxel central, denotado por LBP(p,r),  mediante el uso de un vecindario circular y la interpolación bilineal cada vez que el punto de muestreo no cae en el centro de un píxel [10]. La Figura 8 muestra un ejemplo con diferentes vecinos y radios.
+La extensión es capaz de tomar cualquier radio y vecinos alrededor de un píxel central, denotado por LBP(p,r),  mediante el uso de un vecindario circular y la interpolación bilineal cada vez que el punto de muestreo no cae en el centro de un píxel \citep{Adams}. La Figura 2.21 muestra un ejemplo con diferentes vecinos y radios.
 
 \begin{figure}[ht]
 \begin{center}
@@ -975,13 +975,13 @@ La extensión es capaz de tomar cualquier radio y vecinos alrededor de un píxel
 \begin{center}
 \vskip -0.5cm
 \caption{\small{Distintos tipos de vecindarios.}}
-{\small{Fuente: \cite{FALTA}}}
+{\small{Fuente: \cite{Adams}}}
 \end{center}
 \end{figure}
 
-En Figura 8 a) se muestra un LBP(4,0) de 4 vecinos y radio 0, en la Figura 8 b) se muestra un LBP(8,1) de 8 vecinos y radio 1 y en la Figura 8 c) se muestra un LBP(16,2) de 16 vecinos y radio 2 [10].
+En la Figura 2.21 a) se muestra un LBP(4,0) de 4 vecinos y radio 0, en la Figura 2.21 b) se muestra un LBP(8,1) de 8 vecinos y radio 1 y en la Figura 2.21 c) se muestra un LBP(16,2) de 16 vecinos y radio 2 \citep{Adams}.
 \vskip 0.1cm
-Una vez explicado cómo se aplica el operador LBP en un punto de la imagen, es necesario dar a conocer como se ordena y almacena esta información. En el caso del método LBP el elemento que se obtiene al aplicarlo a una imagen es un vector. Dicho vector es una concatenación de los histogramas que se obtienen al tomar una imagen y subdividirla en ventanas. A cada punto en la ventana se le aplica el operador LBP dándole un valor a cada pixel. Luego se generan los histogramas para cada ventana y finalmente concatenan estos histogramas para dar origen al vector descriptor de la imagen [10]. Ver Figura 9.
+Una vez explicado cómo se aplica el operador LBP en un punto de la imagen, es necesario dar a conocer como se ordena y almacena esta información. En el caso del método LBP el elemento que se obtiene al aplicarlo a una imagen es un vector. Dicho vector es una concatenación de los histogramas que se obtienen al tomar una imagen y subdividirla en ventanas. A cada punto en la ventana se le aplica el operador LBP dándole un valor a cada pixel. Luego se generan los histogramas para cada ventana y finalmente concatenan estos histogramas para dar origen al vector descriptor de la imagen (Ver Figura 2.22). \citep{Adams}. 
 
 \begin{figure}[ht]
 \begin{center}
@@ -990,14 +990,14 @@ Una vez explicado cómo se aplica el operador LBP en un punto de la imagen, es n
 \begin{center}
 \vskip -0.5cm
 \caption{\small{Ilustra el proceso de extracción de características para imágenes de caras.}}
-{\small{Fuente: \cite{FALTA}}}
+{\small{Fuente: \cite{Aguilar}}}
 \end{center}
 \end{figure}
 
 {\bf\item Filtro Gabor:} \vskip 0.1cm
-El filtro de Gabor, propuesto por Gabor en 1943, se define como el producto de una exponencial compleja por una función gaussiana. Son filtros que tienen como principal característica que, al introducir el envolvente gaussiano, se localizan tanto en el dominio espacial como en el de la frecuencia.[4]
+El filtro de Gabor, propuesto por Gabor en 1943, se define como el producto de una exponencial compleja por una función gaussiana. Son filtros que tienen como principal característica que, al introducir el envolvente gaussiano, se localizan tanto en el dominio espacial como en el de la frecuencia \citep{Aguilar}. 
 \vskip 0.1cm
-En el reconocimiento facial las grandes variaciones pueden afectar seriamente al rendimiento de este. Para superar esta degradación del rendimiento, se utilizan los Filtros Gabor, los cuales al ser convolucionados con imágenes faciales extraen lo que se conoce como Características de Gabor, siendo entonces más robustos a distorsiones locales debidas a iluminación o expresión [5].
+En el reconocimiento facial las grandes variaciones pueden afectar seriamente al rendimiento de este. Para superar esta degradación del rendimiento, se utilizan los Filtros Gabor, los cuales al ser convolucionados con imágenes faciales extraen lo que se conoce como Características de Gabor, siendo entonces más robustos a distorsiones locales debidas a iluminación o expresión \citep{Adams}.
 \vskip 0.1cm
 El Filtro de Gabor bidimensional ha sido ampliamente utilizado para reconocimiento facial robusto. La parte real $g_{r}$ y la parte imaginaria de $g_{i}$ del Filtro Gabor se representan como: 
 
@@ -1041,7 +1041,7 @@ Donde $\otimes$ denota la operación de convolución en la ubicación $(x_{i},y_
 f=[f_{1},...\ ...,f_{N_{0}xN_{l}}]^{T}
 \end{equation}
 
-Se debe mencionar que aplicar este método a todos los puntos de una imagen da como resultado un vector de características excesivamente grande, por lo que en estos casos lo que se debe realizar es una selección de puntos de una imagen a utilizar [5].
+Se debe mencionar que aplicar este método a todos los puntos de una imagen da como resultado un vector de características excesivamente grande, por lo que en estos casos lo que se debe realizar es una selección de puntos de una imagen a utilizar \citep{Adams}.
 
 \begin{figure}[ht]
 \begin{center}
@@ -1050,7 +1050,7 @@ Se debe mencionar que aplicar este método a todos los puntos de una imagen da c
 \begin{center}
 \vskip -0.5cm
 \caption{\small{Ilustración de la imagen resultante al aplicar un filtro de Gabor.}}
-{\small{Fuente: \cite{FALTA}}}
+{\small{Fuente: \cite{Aguilar}}}
 \end{center}
 \end{figure}
 
@@ -1064,10 +1064,10 @@ Podemos entender la clasificación como el proceso de asignar objetos a un conju
 
 \begin{enumerate}
 {\bf \item Redes Neuronales:} \vskip 0.1cm
-El método de aprendizaje conocido como Redes Neuronales fue desarrollado simultáneamente en los ámbitos del análisis estadístico y de la inteligencia artificial. La idea central consiste en extraer combinaciones lineales de los atributos presentes en los objetos obteniendo una serie de características y modelizar las clases como funciones no lineales de dichas características. Karpouzis et al. (1999) y Yacoub et al. (2003) presentan algunos ejemplos de la aplicación de esta técnica de clasificación al problema de reconocimiento de emociones. En el primero de estos artículos, las redes neuronales son adaptadas para identificar y agrupar los músculos de la cara que contribuyen a detectar las emociones. En el segundo artículo las emociones tratan de ser reconocidas a partir de señales obtenidas del discurso. Las redes neuronales obtuvieron mejores resultados de clasificación que las técnicas alternativas con las que son comparadas: máquinas de vectores soporte y k-vecinos más cercanos [10].
+El método de aprendizaje conocido como Redes Neuronales fue desarrollado simultáneamente en los ámbitos del análisis estadístico y de la inteligencia artificial. La idea central consiste en extraer combinaciones lineales de los atributos presentes en los objetos obteniendo una serie de características y modelizar las clases como funciones no lineales de dichas características. Karpouzis et al. (1999) y Yacoub et al. (2003) presentan algunos ejemplos de la aplicación de esta técnica de clasificación al problema de reconocimiento de emociones. En el primero de estos artículos, las redes neuronales son adaptadas para identificar y agrupar los músculos de la cara que contribuyen a detectar las emociones. En el segundo artículo las emociones tratan de ser reconocidas a partir de señales obtenidas del discurso. Las redes neuronales obtuvieron mejores resultados de clasificación que las técnicas alternativas con las que son comparadas: máquinas de vectores soporte y k-vecinos más cercanos \citep{Isaac}.
 
 {\bf \item Máquinas de Vector Soporte:} \vskip 0.1cm
-Las Máquinas de Vectores Soporte (o SVM de ‘Support Vector Machine’) son procedimientos de clasificación y regresión basados en la teoría estadística del aprendizaje. Podemos definir una SVM como una clase específica de algoritmos preparados para el entrenamiento eficaz de una máquina de aprendizaje lineal en un espacio inducido por una función núcleo (o kernel), de acuerdo a unas reglas de generalización empleando técnicas de optimización. Las dos ideas fundamentales para la construcción de un clasificador SVM son la transformación del espacio de entrada en un espacio de alta dimensión y la localización en dicho espacio de un hiperplano separador óptimo. La transformación inicial se realiza mediante la elección de una función kernel adecuada. La ventaja de trabajar en un espacio de alta dimensión radica en que las clases consideradas serán linealmente separables con alta probabilidad, y por tanto, encontrar un hiperplano separador óptimo será poco costoso desde el punto de vista computacional. Además, dicho hiperplano vendrá determinado por unas pocas observaciones, denominadas, vectores soporte por ser las únicas de las que depende la forma del hiperplano. Una de las principales dificultades en la aplicación de este método radica en la elección adecuada de la función kernel. Es decir, construir la función de transformación del espacio original a un espacio de alta dimensión es un punto crucial para el buen funcionamiento del clasificador.
+Según \citep{Isaac} Las Máquinas de Vectores Soporte (o SVM de ‘Support Vector Machine’) son procedimientos de clasificación y regresión basados en la teoría estadística del aprendizaje. Podemos definir una SVM como una clase específica de algoritmos preparados para el entrenamiento eficaz de una máquina de aprendizaje lineal en un espacio inducido por una función núcleo (o kernel), de acuerdo a unas reglas de generalización empleando técnicas de optimización. Las dos ideas fundamentales para la construcción de un clasificador SVM son la transformación del espacio de entrada en un espacio de alta dimensión y la localización en dicho espacio de un hiperplano separador óptimo. La transformación inicial se realiza mediante la elección de una función kernel adecuada. La ventaja de trabajar en un espacio de alta dimensión radica en que las clases consideradas serán linealmente separables con alta probabilidad, y por tanto, encontrar un hiperplano separador óptimo será poco costoso desde el punto de vista computacional. Además, dicho hiperplano vendrá determinado por unas pocas observaciones, denominadas, vectores soporte por ser las únicas de las que depende la forma del hiperplano. Una de las principales dificultades en la aplicación de este método radica en la elección adecuada de la función kernel. Es decir, construir la función de transformación del espacio original a un espacio de alta dimensión es un punto crucial para el buen funcionamiento del clasificador.
 \vskip 0.1cm
 En el problema del reconocimiento de emociones es típico trabajar con más de dos emociones. Supongamos que el número de emociones consideradas es n. Es necesario llevar a cabo una generalización del clasificador binario al caso multiclase.
 \vskip 0.1cm
@@ -1076,9 +1076,9 @@ Existen varios algoritmos para esta generalización. En primer lugar, el algorit
 Las SVMs han demostrado ser un método muy efectivo en la clasificación de expresiones faciales espontáneas (Bartlett et al., 2001)). Srivastavaa et al. (2006) han empleado con éxito las SVMs con kernel polinomial para el reconocimiento de personas empleando imágenes de rango de los rostros.
 
 {\bf \item k vecinos más próximos (KNN):} \skip 0.1cm
-Este algoritmo se basa en la distancia que existe entre la muestra de entrada con las diferentes muestras que se tienen ya clasificadas por clases. Dependiendo del número de vecinos en los que se fije determinará la clase de la muestra. Ésta corresponderá a la clase más dominante entre los K vecinos más próximos [1]. 
+Este algoritmo se basa en la distancia que existe entre la muestra de entrada con las diferentes muestras que se tienen ya clasificadas por clases. Dependiendo del número de vecinos en los que se fije determinará la clase de la muestra. Ésta corresponderá a la clase más dominante entre los K vecinos más próximos \citep{Bartual}. 
 \vskip 0.1cm
-KNN es un clasificador estadístico basado en el vecino más cercano (KNN), el cual visto de un modo práctico encuentra los k patrones del conjunto de entrenamiento más próximos al patrón observación con una métrica dada (para el caso de este estudio la distancia Euclidiana), anota las clases a las que pertenecen dichos patrones y decide por votación mayoritaria entre las clases de los k patrones [2].
+KNN es un clasificador estadístico basado en el vecino más cercano (KNN), el cual visto de un modo práctico encuentra los k patrones del conjunto de entrenamiento más próximos al patrón observación con una métrica dada (para el caso de este estudio la distancia Euclidiana), anota las clases a las que pertenecen dichos patrones y decide por votación mayoritaria entre las clases de los k patrones \citep{Damian}.
 \end{enumerate}
 
 \section{Secuencia dinámica de imágenes}
@@ -1264,9 +1264,8 @@ al 5.
 \bf 0 & \bf 1 & \bf 2 & \bf 3 & \bf 4 & \bf 5 \\ \hline
 No aplica & Malo & Regular & Normal & Bueno & Muy bueno \\ \hline 
 \end{tabular}
-{\small{Fuente: Elaboración propia.}}
 \end{table}
-
+{\small{Fuente: Elaboración propia.}}
 \vskip 3cm
 
 \begin{itemize}
