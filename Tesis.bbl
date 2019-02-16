@@ -1,26 +1,113 @@
 \begin{thebibliography}{}
 
+\bibitem[Adams and Alegría, 2015]{Adams}
+Adams, M. and Alegría, H.~A. (2015).
+\newblock Reconocimiento frontal de rostros en base a imágenes de alta
+  resolución.
+
+\bibitem[Aguilar~Torres, 2013]{Aguilar}
+Aguilar~Torres, E. (2013).
+\newblock Clasificación demográfica por medio del análisis de atributos
+  faciales sobre imágenes en entornos sin restricciones.
+
+\bibitem[Alegre et~al., 2016]{Enrique}
+Alegre, E., Pajares, G., and De~la escalera, A. (2016).
+\newblock {\em Conceptos y Metodos en Vision por computador}.
+\newblock RA-MA S.A. Editorial y Publicaciones.
+
+\bibitem[Alegre et~al., 2003]{Matlab}
+Alegre, E., Sánchez, L., Fernandez-Diaz, R., and Carlos~Mostaza, J. (2003).
+\newblock {\em Procesamiento Digital de Imágenes. Fundamentos y Practicas con
+  Matlab (Digital image processing. Fundamentals and practices with Matlab)}.
+
+\bibitem[Alvarez and Guevara, 2009]{Damian}
+Alvarez, D.~A. and Guevara, M.~L. (2009).
+\newblock Reconocimiento de expresiones faciales prototipo usando ica.
+
 \bibitem[Bajaj et~al., 2013]{Bajaj}
 Bajaj, N., Happy, S., and Routray (2013).
 \newblock Dynamic model of faial expression recognition based on eigen-face
   approach.
+
+\bibitem[Bartual~González, 2017]{Bartual}
+Bartual~González, R. (2017).
+\newblock Detección facial y reconocimiento anímico mediante expresiones
+  faciales.
+\newblock {\em California Mental Health Research Digest}, page~13.
 
 \bibitem[Cama~C., 2015]{Cama}
 Cama~C., Y.~A. (2015).
 \newblock Prototipo computacional para la detección y clasificación de
   expresiones faciales mediante la extracción de patrones binarios locales.
 
+\bibitem[Carrascosa et~al., 2001]{Carrascosa}
+Carrascosa, C., Julián, V.~J., and Rebollo, M. (2001).
+\newblock Una taxonomía para los agentes de información.
+
+\bibitem[Castrillom et~al., 2008]{Willian}
+Castrillom, W.~A., ALVAREZ, D.~A., and LÓPEZ, A.~F. (2008).
+\newblock Técnicas de extraccion de características en imágenes para el
+  reconocimiento de expresiones faciales.
+
+\bibitem[Ekman, 1970]{Ekman}
+Ekman, P. (1970).
+\newblock Universal facial expression of emotions.
+\newblock {\em California Mental Health Research Digest}, 8(4):151--158.
+
+\bibitem[Lopez~Rincon, 2015]{Lopez}
+Lopez~Rincon, O. (2015).
+\newblock Reconocimiento de gestos en tiempo real basado en heurísticas y
+  reconocimiento de patrones.
+
+\bibitem[Martín~de Diego et~al., 2006]{Isaac}
+Martín~de Diego, I., Serrano, n., Conde, C., and Cabello, E. (2006).
+\newblock Tecnicas de reconocimiento automático de emociones.
+\newblock 7(2).
+
+\bibitem[Merchán et~al., 2014]{Fernando}
+Merchán, F., Galeano, S., and Poveda, H. (2014).
+\newblock Mejoras en el entrenamiento de esquemas de detección de sonrisas
+  basados en características de apariencia.
+
 \bibitem[Nwana, 1996]{Nwana}
 Nwana, H.~S. (1996).
 \newblock Software agents: An overview.
+
+\bibitem[Pajares et~al., 2001]{Pajares}
+Pajares, M., De~La~Cruz, G., and M., J. (2001).
+\newblock {\em Vsión por computador: Imágenes digitales y aplicaciones}.
+\newblock RA-MA S.A. Editorial y Publicaciones.
+
+\bibitem[Posada~P., 2010]{Web}
+Posada~P., F. (2010).
+\newblock {\em Multimedia y Web 2.0}.
 
 \bibitem[Russell and Norvig, 2003]{Russel}
 Russell, S.~J. and Norvig, P. (2003).
 \newblock {\em Artificial Intelligence: A Modern Approach}.
 
+\bibitem[Santos, 2007]{Santos}
+Santos, E.~M. (2007).
+\newblock {\em Face Analysis Techniques for Human-Computer Interaction}.
+\newblock Dissertations in Interactive Technology, University of Tampere.
+
+\bibitem[Tecniber-5, 2012]{Foto}
+Tecniber-5 (2012).
+\newblock {\em Fotografía digital}.
+
+\bibitem[Valvert, 2006]{Rafael}
+Valvert, J.~R. (2006).
+\newblock Métodos y técnicas de reconocimiento de rostros en imágenes
+  digitales bidimensionales.
+\newblock page~3.
+
 \bibitem[Wooldridge and Jennings, 1994]{Wooldridge}
 Wooldridge, M. and Jennings, N.~R. (1994).
 \newblock Intelligent agents: Theory and practice.
 \newblock {\em Knowledge Engineering Review}.
+
+\bibitem[ZEYUN and CHANDRAJIT, 2001]{Zeyun}
+ZEYUN, Y. and CHANDRAJIT, B. (2001).
+\newblock A fast adaptive method for image contrast enhancement.
 
 \end{thebibliography}
