@@ -1,8 +1,26 @@
 \begin{thebibliography}{}
 
+\bibitem[Bajaj et~al., 2013]{Bajaj}
+Bajaj, N., Happy, S., and Routray (2013).
+\newblock Dynamic model of faial expression recognition based on eigen-face
+  approach.
+
 \bibitem[Cama~C., 2015]{Cama}
 Cama~C., Y.~A. (2015).
 \newblock Prototipo computacional para la detección y clasificación de
   expresiones faciales mediante la extracción de patrones binarios locales.
+
+\bibitem[Nwana, 1996]{Nwana}
+Nwana, H.~S. (1996).
+\newblock Software agents: An overview.
+
+\bibitem[Russell and Norvig, 2003]{Russel}
+Russell, S.~J. and Norvig, P. (2003).
+\newblock {\em Artificial Intelligence: A Modern Approach}.
+
+\bibitem[Wooldridge and Jennings, 1994]{Wooldridge}
+Wooldridge, M. and Jennings, N.~R. (1994).
+\newblock Intelligent agents: Theory and practice.
+\newblock {\em Knowledge Engineering Review}.
 
 \end{thebibliography}

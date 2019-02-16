@@ -32,36 +32,36 @@
 \contentsline {subsection}{\numberline {2.2.2}Estructura de un agente}{14}% 
 \contentsline {subsection}{\numberline {2.2.3}Caracter\IeC {\'\i }sticas}{18}% 
 \contentsline {subsection}{\numberline {2.2.4}Clasificaci\IeC {\'o}n}{19}% 
-\contentsline {subsubsection}{\numberline {2.2.4.1}Tipos de Agente Inteligentes seg\IeC {\'u}n Russell}{19}% 
+\contentsline {subsubsection}{\numberline {2.2.4.1}Tipos de Agente Inteligentes}{19}% 
 \contentsline {subsubsection}{\numberline {2.2.4.2}Clasificaci\IeC {\'o}n de Agentes seg\IeC {\'u}n su taxonom\IeC {\'\i }a}{23}% 
-\contentsline {subsubsection}{\numberline {2.2.4.3}Clasificaci\IeC {\'o}n seg\IeC {\'u}n su funci\IeC {\'o}n (Carrascosa et al., 2001)}{28}% 
+\contentsline {subsubsection}{\numberline {2.2.4.3}Clasificaci\IeC {\'o}n seg\IeC {\'u}n su funci\IeC {\'o}n)}{28}% 
 \contentsline {subsection}{\numberline {2.2.5}Aplicaciones}{30}% 
 \contentsline {section}{\numberline {2.3}Expresiones faciales}{32}% 
 \contentsline {section}{\numberline {2.4}Reconocimiento de expresiones faciales}{34}% 
 \contentsline {subsection}{\numberline {2.4.1}Captura o adquisici\IeC {\'o}n de im\IeC {\'a}genes}{36}% 
 \contentsline {subsection}{\numberline {2.4.2}Pre procesamiento de la imagen}{41}% 
-\contentsline {subsection}{\numberline {2.4.3}Segmentaci\IeC {\'o}n}{48}% 
+\contentsline {subsection}{\numberline {2.4.3}Segmentaci\IeC {\'o}n}{47}% 
 \contentsline {subsubsection}{\numberline {2.4.3.1}Descriptor Haar}{48}% 
 \contentsline {subsubsection}{\numberline {2.4.3.2}Descriptor HOG (Histograma de Gradiente Orientado)}{49}% 
 \contentsline {subsection}{\numberline {2.4.4}Descripci\IeC {\'o}n}{51}% 
-\contentsline {subsection}{\numberline {2.4.5}Reconocimiento e interpretaci\IeC {\'o}n}{58}% 
-\contentsline {section}{\numberline {2.5}Secuencia din\IeC {\'a}mica de im\IeC {\'a}genes}{63}% 
-\contentsline {subsection}{\numberline {2.5.1}Definici\IeC {\'o}n:}{63}% 
-\contentsline {subsection}{\numberline {2.5.2}Caracter\IeC {\'\i }sticas:}{64}% 
-\contentsline {chapter}{\numberline {3}Desarrollo}{69}% 
-\contentsline {section}{\numberline {3.1}Estructura del Agente}{69}% 
-\contentsline {subsection}{\numberline {3.1.1}PEAS}{69}% 
-\contentsline {subsection}{\numberline {3.1.2}Tipo de agente}{70}% 
-\contentsline {subsection}{\numberline {3.1.3}Funci\IeC {\'o}n del agente}{70}% 
-\contentsline {subsection}{\numberline {3.1.4}Programa del agente}{71}% 
-\contentsline {subsection}{\numberline {3.1.5}Dise\IeC {\~n}o del agente inteligente}{71}% 
-\contentsline {section}{\numberline {3.2}Clasificaci\IeC {\'o}n de algoritmos}{72}% 
-\contentsline {chapter}{\numberline {4}Resultados de la tesis}{77}% 
-\contentsline {section}{\numberline {4.1}Resultados Te\IeC {\'o}ricos}{77}% 
-\contentsline {section}{\numberline {4.2}Resultados Experimentales}{81}% 
-\contentsline {chapter}{\numberline {5}Consideraciones finales}{93}% 
-\contentsline {section}{\numberline {5.1}Conclusiones}{93}% 
-\contentsline {section}{\numberline {5.2}Trabajos futuros}{94}% 
-\contentsline {chapter}{\numberline {A}Primer apendice}{96}% 
-\contentsline {chapter}{\numberline {B}Segundo apendice}{101}% 
+\contentsline {subsection}{\numberline {2.4.5}Reconocimiento e interpretaci\IeC {\'o}n}{59}% 
+\contentsline {section}{\numberline {2.5}Secuencia din\IeC {\'a}mica de im\IeC {\'a}genes}{62}% 
+\contentsline {subsection}{\numberline {2.5.1}Definici\IeC {\'o}n:}{62}% 
+\contentsline {subsection}{\numberline {2.5.2}Caracter\IeC {\'\i }sticas:}{63}% 
+\contentsline {chapter}{\numberline {3}Desarrollo}{68}% 
+\contentsline {section}{\numberline {3.1}Estructura del Agente}{68}% 
+\contentsline {subsection}{\numberline {3.1.1}PEAS}{68}% 
+\contentsline {subsection}{\numberline {3.1.2}Tipo de agente}{69}% 
+\contentsline {subsection}{\numberline {3.1.3}Funci\IeC {\'o}n del agente}{69}% 
+\contentsline {subsection}{\numberline {3.1.4}Programa del agente}{70}% 
+\contentsline {subsection}{\numberline {3.1.5}Dise\IeC {\~n}o del agente inteligente}{70}% 
+\contentsline {section}{\numberline {3.2}Clasificaci\IeC {\'o}n de algoritmos}{71}% 
+\contentsline {chapter}{\numberline {4}Resultados de la tesis}{76}% 
+\contentsline {section}{\numberline {4.1}Resultados Te\IeC {\'o}ricos}{76}% 
+\contentsline {section}{\numberline {4.2}Resultados Experimentales}{80}% 
+\contentsline {chapter}{\numberline {5}Consideraciones finales}{92}% 
+\contentsline {section}{\numberline {5.1}Conclusiones}{92}% 
+\contentsline {section}{\numberline {5.2}Trabajos futuros}{93}% 
+\contentsline {chapter}{\numberline {A}Primer apendice}{95}% 
+\contentsline {chapter}{\numberline {B}Segundo apendice}{100}% 
 \vspace {1em}

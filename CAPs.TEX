@@ -210,19 +210,19 @@ El presente capítulo contiene los antecedentes encontrados a este proyecto, ade
 \cite{Cama} propone un prototipo computacional para la detección de y clasificación de expresiones faciales mediante la extracción de patrones binarios locales. Su investigación se enfoca en el estudio de la aplicación del descriptor LBP, como método basado en apariencia, para describir las expresiones en el rostro y así poder clasificarlas entre las emociones básicas mediante el uso de técnicas Boosting de aprendizaje de máquina. El sistema fue capaz de clasificar 6 emociones básicas (Enojo, asco, felicidad, tristeza, miedo y asombro) llegando a alcanzar porcentaje de acierto hasta de 93.14\% para el asombro y con un mínimo aceptable de 84.13\% en la tristeza. Este trabajo nos ayuda a poder tener algoritmos de entrenamiento para poder obtener mejores resultados a interpretar una expresión facial.
 \vskip 0.1cm
 
-\citep{Cama} proponen un enfoque holístico para el reconocimiento de expresiones faciales que capta la variación en las características faciales en el dominio temporal y clasifica a la secuencia de imágenes de diferentes emociones. El método propuesto utiliza características como Haar para detectar el rostro en una imagen. La dimensionalidad del espacio característico fue reducida utilizando Análisis de Componentes Principales (PCA). El sistema fue capaz de clasificar cuatro emociones básicas tales como alegría, tristeza, sorpresa y la ira. De un total de 40 conjuntos de datos 24 utilizados para las pruebas, en promedio el algoritmo mostró una Precisión del 84,4\%. Este trabajo nos ayuda a tener un concepto de algoritmos y características que podemos extraer de la secuencia dinámica de imágenes. 
+\cite{Bajaj} proponen un enfoque holístico para el reconocimiento de expresiones faciales que capta la variación en las características faciales en el dominio temporal y clasifica a la secuencia de imágenes de diferentes emociones. El método propuesto utiliza características como Haar para detectar el rostro en una imagen. La dimensionalidad del espacio característico fue reducida utilizando Análisis de Componentes Principales (PCA). El sistema fue capaz de clasificar cuatro emociones básicas tales como alegría, tristeza, sorpresa y la ira. De un total de 40 conjuntos de datos 24 utilizados para las pruebas, en promedio el algoritmo mostró una Precisión del 84,4\%. Este trabajo nos ayuda a tener un concepto de algoritmos y características que podemos extraer de la secuencia dinámica de imágenes. 
 \vskip 0.1cm
 
-Patras and Pantic. (2006) presentan un trabajo que trata de manejar una gran variedad de comportamientos facial humana mediante el reconocimiento de las acciones de los músculos faciales que producen expresiones, para eso presentaron un sistema para el reconocimiento automático de las unidades faciales de acción (AUS) y sus modelos temporales, con vistas al perfil de la cara en secuencias de imágenes. El algoritmo lleva a cabo tanto la segmentación automática de un vídeo de entrada en las expresiones faciales en la foto y el reconocimiento de segmentos temporales de 27 combinaciones en el vídeo de entrada de la cara de perfil. Se consiguió una tasa de reconocimiento del 87\%. Este trabajo apoya al proyecto con la idea de la descomposición de las secuencias dinámicas de imágenes y analizarlas individualmente. 
+\cite{Patras} presentan un trabajo que trata de manejar una gran variedad de comportamientos facial humana mediante el reconocimiento de las acciones de los músculos faciales que producen expresiones, para eso presentaron un sistema para el reconocimiento automático de las unidades faciales de acción (AUS) y sus modelos temporales, con vistas al perfil de la cara en secuencias de imágenes. El algoritmo lleva a cabo tanto la segmentación automática de un vídeo de entrada en las expresiones faciales en la foto y el reconocimiento de segmentos temporales de 27 combinaciones en el vídeo de entrada de la cara de perfil. Se consiguió una tasa de reconocimiento del 87\%. Este trabajo apoya al proyecto con la idea de la descomposición de las secuencias dinámicas de imágenes y analizarlas individualmente. 
 
 \section{Agentes inteligentes}
 \subsection{Definición}
 
-Según {\bf Russel} un agente es cualquier cosa capaz de percibir su medio ambiente mediante sensores y actuar en ese medio mediante actuadores (Figura 2.1) , También dan el ejemplo de  un agente de software que recibe pulsaciones de teclas, contenido de archivos y paquetes de red como entradas sensoriales y actúa sobre el entorno al mostrar información en la pantalla, escribir archivos o enviar paquetes de red.
+Según \cite{Russel} un agente es cualquier cosa capaz de percibir su medio ambiente mediante sensores y actuar en ese medio mediante actuadores (Figura 2.1) , También dan el ejemplo de  un agente de software que recibe pulsaciones de teclas, contenido de archivos y paquetes de red como entradas sensoriales y actúa sobre el entorno al mostrar información en la pantalla, escribir archivos o enviar paquetes de red.
 
-{\bf Nwana} define un agente como una referencia a un componente de software y/o hardware que es capaz de actuar con rigor para realizar tareas en nombre de su usuario.
+\cite{Nwana} define un agente como una referencia a un componente de software y/o hardware que es capaz de actuar con rigor para realizar tareas en nombre de su usuario.
 
-Un agente inteligente es una entidad software implementada sobre una arquitectura hardware que, basándose en su propio conocimiento, realiza un conjunto de operaciones para satisfacer las necesidades de un usuario o de otro programa, bien por iniciativa propia o porque alguno de éstos lo requiere» {\bf Wooldridge y Jennings, 1995}.
+Un agente inteligente es una entidad software implementada sobre una arquitectura hardware que, basándose en su propio conocimiento, realiza un conjunto de operaciones para satisfacer las necesidades de un usuario o de otro programa, bien por iniciativa propia o porque alguno de éstos lo requiere \citep{Wooldridge}.
 
 
 \begin{figure}[ht]
@@ -232,7 +232,7 @@ Un agente inteligente es una entidad software implementada sobre una arquitectur
 \begin{center}
 \vskip -0.5cm
 \caption{\small{Estructura básica de un agente.}}
-{\small{Fuente: \cite{FALTA}}}
+{\small{Fuente: \cite{Russel}}}
 \end{center}
 \end{figure}
 
@@ -258,7 +258,7 @@ Percept sequence & Action \\ \hline
 \it [A, Clean] & \it Right \\ \it [A, Dirty] & \it Suck \\ \it [B, Clean] & \it Left \\ \it [B, Dirty] & \it Suck \\ \it [A, Clean], \it [A, Clean] & \it Right \\ \it [A, Clean], \it [A, Dirty] & \it Suck \\ \vdots & \vdots \\ \it [A, Clean], \it[A, Clean], \it[A, Clean] & \it Right \\ \it [A, Clean], \it[A, Clean], \it[A, Dirty] & \it Suck \\ \vdots & \vdots \\ \hline
 \end{tabular} 
 \begin{center}
-{\small{Fuente: \cite{FALTA}}}
+{\small{Fuente: \cite{Russel}}}
 \end{center}
 \end{table}
 
@@ -284,17 +284,17 @@ Obviamente, el programa que se elija tiene que ser apropiado para la arquitectur
 
 {\bf Especificación del entorno de trabajo:}
  
-Para empezar a diseñar el agente debemos tener una idea clara de las posibles percepciones, acciones, medida de desempeño a satisfacer y la clase de ambiente en la que el agente estará situado. Por sus siglas en inglés, {\bf Rusell} la describe como PEAS (performance, environment, actuators, sensors). 
+Para empezar a diseñar el agente debemos tener una idea clara de las posibles percepciones, acciones, medida de desempeño a satisfacer y la clase de ambiente en la que el agente estará situado. Por sus siglas en inglés, \cite{Russel} la describe como PEAS (performance, environment, actuators, sensors). 
 
 \begin{table}[ht!]
 \centering
-\caption{Falta título poner aquí.} \vskip 0.1cm
+\caption{PEAS} \vskip 0.1cm
 \begin{tabular}{|p{2.5cm} ||p{3cm} |p{2.9cm} |p{2.8cm} |p{3.3cm}|}  \hline 
 \bf Agent Type & \bf Performance Measure & \bf Environment & \bf Actuators & \bf Sensors \\ \hline 
 Taxi driver & Safe, fast, legal, comfortable trip, maximize profits & Roads, other traffic, pedestrians, customers & Steering, accelerator, brake, signal, horn, display & Cameras, sonar, speedometer, GPS, odometer, accelerometer, engine sensors, keyboard \\ \hline
 \end{tabular} 
 \begin{center}
-{\small{Fuente: \cite{FALTA}}}
+{\small{Fuente: \cite{Russel}}}
 \end{center}
 \end{table}
 
@@ -323,7 +323,9 @@ Las principales características que podemos observar que  posee un agente intel
 \subsection{Clasificación}
 Existen multitud de clasificaciones de agentes inteligentes dependiendo del contexto en el que se ubiquen.
 
-\subsubsection{Tipos de Agente Inteligentes según Russell}
+\subsubsection{Tipos de Agente Inteligentes}
+
+Según \cite{Russel} los tipos de agentes inteligentes son: 
 
 \begin{itemize}
 \item[•] {\bf Agentes de Reflejos Simples} \vskip 0.1cm
@@ -336,7 +338,7 @@ Un agente reflejo simple actúa encontrando una regla cuya condición coincida c
 \begin{center}
 \vskip -0.5cm
 \caption{\small{Diseño de Agente de reflejo simple.}}
-{\small{Fuente: \cite{FALTA}}}
+{\small{Fuente: \cite{Russel}}}
 \end{center}
 \end{figure}
 
@@ -358,7 +360,7 @@ Se combina las percepciones prevalecientes con el estado interno anterior para g
 \begin{center}
 \vskip -0.5cm
 \caption{\small{Diseño de agente bien informado de todo lo que pasa.}}
-{\small{Fuente: \cite{FALTA}}}
+{\small{Fuente: \cite{Russel}}}
 \end{center}
 \end{figure}
 
@@ -375,7 +377,7 @@ La búsqueda  y la planificación, son los subcampos de la inteligencia artifici
 \begin{center}
 \vskip -0.5cm
 \caption{\small{Diseño de agente basado en metas.}}
-{\small{Fuente: \cite{FALTA}}}
+{\small{Fuente: \cite{Russel}}}
 \end{center}
 \end{figure}
 
@@ -393,14 +395,14 @@ La utilidad permite la toma de decisiones racionales cuando la meta tiene proble
 \begin{center}
 \vskip -0.5cm
 \caption{\small{Diseño de agentes basado en utilidades.}}
-{\small{Fuente: \cite{FALTA}}}
+{\small{Fuente: \cite{Russel}}}
 \end{center}
 \end{figure}
 
 \end{itemize}
 
 \subsubsection{Clasificación de Agentes según su taxonomía}
-Nwana nos presenta una clasificación de agentes según su taxonomía:
+\cite{Nwana} nos presenta una clasificación de agentes según su taxonomía:
 
 \begin{figure}[ht]
 \begin{center}
@@ -409,7 +411,7 @@ Nwana nos presenta una clasificación de agentes según su taxonomía:
 \begin{center}
 \vskip -0.5cm
 \caption{\small{Clasificación de agentes.}}
-{\small{Fuente: \cite{FALTA}}}
+{\small{Fuente: \cite{Nwana}}}
 \end{center}
 \end{figure}
 
@@ -451,7 +453,9 @@ Una vez que los agentes están disponibles, hay dos arquitecturas posibles para 
 
 \end{itemize}
 
-\subsubsection{Clasificación según su función (Carrascosa et al., 2001)}
+\subsubsection{Clasificación según su función)}
+
+\cite{Carrascosa} clasifica los agentes según su función:
 
 \begin{itemize}
 \item[•] {\bf Agentes de búsqueda:} \vskip 0.1cm
@@ -593,30 +597,28 @@ Independientemente de la técnica que sea implementada, se utilizan siempre dos 
 
 \subsection{Captura o adquisición de imágenes}
 {\bf Cámara:} \vskip 0.1cm
-La cámara es el dispositivo que, utilizando un objetivo formado por un juego de lentes y el diafragma, construye una imagen sobre el plano del sensor compuesto de elementos fotosensibles, la digitaliza y la transmite hacia la tarjeta de adquisición del procesador. Están compuestas por un sensor y la electrónica asociada. Las cámaras proporcionan una señal de vídeo en un formato estándar para su digitalización (en el caso analógico) o directamente la información en formato digital que constituye la imagen captada por la misma (en el caso de cámaras digitales).
+La cámara es el dispositivo que, utilizando un objetivo formado por un juego de lentes y el diafragma, construye una imagen sobre el plano del sensor compuesto de elementos fotosensibles, la digitaliza y la transmite hacia la tarjeta de adquisición del procesador. Están compuestas por un sensor y la electrónica asociada. Las cámaras proporcionan una señal de vídeo en un formato estándar para su digitalización (en el caso analógico) o directamente la información en formato digital que constituye la imagen captada por la misma \citep{Enrique}.
 \vskip 0.1cm
-{\bf Enrique Alegre, Gonzalo Pajares y Arturo de la Escalera, Conceptos y Métodos en Visión por Computador, 2016}
+
 
 \begin{itemize}
 \item[•] {\bf Resolución} \vskip 0.1cm
 Es el grado de detalle o calidad de una imagen digital ya sea escaneada, fotografiada o impresa. Este valor se expresa en ppp (píxeles por pulgada) o en inglés dpi (dots per inch). Cuantos más píxeles contenga una imagen por pulgada lineal, mayor calidad tendrá.
 \vskip 0.1cm
-{\bf Fernando Posada Prieto, Diseño de materiales multimedia. Web 2.0, 2009}
+
 
 \item[•] {\bf fps (Fotogramas por segundo)} \vskip 0.1cm
-Un video resulta de la exposición imágenes o fotogramas uno detrás de otro. Un parámetro de la calidad del video es el número de fotogramas por segundo que muestra durante su reproducción. Este valor oscila entre 15 y 30. 
+Un video resulta de la exposición imágenes o fotogramas uno detrás de otro. Un parámetro de la calidad del video es el número de fotogramas por segundo que muestra durante su reproducción. Este valor oscila entre 15 y 30.
 \vskip 0.1cm
-{\bf Fernando Posada Prieto, Diseño de materiales multimedia. Web 2.0, 2009}
 
 \item[•] {\bf Resolución de la imagen} \vskip 0.1cm
-Las cámaras digitales presentan una calidad que se expresa en MegaPíxels. Así por ejemplo una cámara de 8 MP es aquella capaz de tomar una fotografía con 8 millones de píxeles. 
+Las cámaras digitales presentan una calidad que se expresa en MegaPíxels. Así por ejemplo una cámara de 8 MP es aquella capaz de tomar una fotografía con 8 millones de píxeles \citep{Web}. 
 \vskip 0.1cm
-{\bf Fernando Posada Prieto, Diseño de materiales multimedia. Web 2.0, 2009}
+
 
 \item[•] {\bf Zoom Digital} \vskip 0.1cm
-El zoom digital amplía la imagen que ha recibido reduciendo la resolución. Hará falta que nos fijemos en el tipo de zoom para evaluar la calidad de la cámara. El zoom de una cámara puede venir expresado por el zoom total, que se obtiene de multiplicar el zoom óptico por el digital. Así, por ejemplo, una cámara con zoom óptico 3X (donde X representa el factor de acercamiento, es decir, los aumentos) y zoom digital 8X, tiene un zoom total de 24X. 
+El zoom digital amplía la imagen que ha recibido reduciendo la resolución. Hará falta que nos fijemos en el tipo de zoom para evaluar la calidad de la cámara. El zoom de una cámara puede venir expresado por el zoom total, que se obtiene de multiplicar el zoom óptico por el digital. Así, por ejemplo, una cámara con zoom óptico 3X (donde X representa el factor de acercamiento, es decir, los aumentos) y zoom digital 8X, tiene un zoom total de 24X \cite{Foto}.
 \vskip 0.1cm
-{\bf Tecniber-5, Fotografía digital, 2012}
 \end{itemize}
 
 Para la captura de las secuencias dinámicas de imágenes utilizaremos una cámara Web para poder procesar de inmediato las secuencias a la máquina y poder realizar el procesamiento de las imágenes. 
@@ -643,8 +645,8 @@ Es una buena cámara de chat de vídeo pero no es tan completa como los modelos 
 \end{center}
 \begin{center}
 \vskip -0.5cm
-\caption{\small{Falta Títulooo.}}
-{\small{Fuente: \cite{FALTA}}}
+\caption{\small{Microsoft LifeCam HD-3000}}
+{\small{Fuente: \cite{Amazon}}}
 \end{center}
 \end{figure}
 
@@ -667,8 +669,8 @@ Logitech C270 es una cámara web de escritorio con una gran calidad de imagen. V
 \end{center}
 \begin{center}
 \vskip -0.5cm
-\caption{\small{Falta Títulooo.}}
-{\small{Fuente: \cite{FALTA}}}
+\caption{\small{Hd Logitech C270}}
+{\small{Fuente: \cite{Amazon}}}
 \end{center}
 \end{figure}
 
@@ -691,8 +693,8 @@ Cuenta con un diseño simple de clip, con lo cual se adapta fácil a cualquier p
 \end{center}
 \begin{center}
 \vskip -0.5cm
-\caption{\small{Falta Títulooo.}}
-{\small{Fuente: \cite{FALTA}}}
+\caption{\small{Genius FaceCam 1000X.}}
+{\small{Fuente: \cite{Amazon}}}
 \end{center}
 \end{figure}
 
@@ -1092,7 +1094,7 @@ Una secuencia de imágenes es en realidad sólo una carpeta llena de imágenes q
 \begin{center}
 \vskip -0.5cm
 \caption{\small{Secuencia de Imágenes.}}
-{\small{Fuente: \cite{FALTA}}}
+{\small{Fuente: Elaboración propia.}}
 \end{center}
 \end{figure}
 
@@ -1100,7 +1102,7 @@ Una secuencia de imágenes es en realidad sólo una carpeta llena de imágenes q
 Cada archivo de una secuencia de imágenes representa un fotograma de vídeo. Así que por ejemplo en 30 segundos de clip, con 30 cuadros por segundo, se tendría 900 archivos de imagen. Aunque las secuencias de imágenes pueden ser difíciles de trabajar con (debido al volumen de cizalla de archivos), se puede hacer casi cualquier cosa.
 \vskip 0.1cm
 Las secuencias de imágenes utilizan la misma variedad de formatos de archivo que los archivos de imágenes fijas. Entre algunos de los formatos más utilizados para guardar secuencias de imágenes se encuentran SGI, BMP, JPEG, TIFF y TGA. Mostramos unas pequeñas características de cada una de estas:
-\vskip 0.1cm
+\vskip 0.1cm \cite{Web}.
 
 {\bf BMP (Bitmap = Mapa de bits)} \vskip 0.1cm
 
@@ -1190,13 +1192,13 @@ Primero vamos a realizar un análisis del entorno con el PEAS del agente visto e
 
 \begin{table}[ht!]
 \centering
-\caption{Falta título poner aquí.} \vskip 0.1cm
+\caption{PEAS Reconocimiento de expresiones faciales.} \vskip 0.1cm
 \begin{tabular}{|p{2.7cm} |p{3cm} |p{3.8cm} |p{2cm} |p{2.1cm}|}  \hline 
 \bf Tipo de Agente & \bf Performance & \bf Entorno & \bf Actuadores & \bf Sensores \\ \hline 
 Reconocedor de expresiones faciales & Reconocimiento correcto de expresiones faciales & Entorno controlado de personas naturales frente a la cámara & Pantalla del monitor & Cámara web \\ \hline
 \end{tabular} 
 \begin{center}
-{\small{Fuente: \cite{FALTA}}}
+{\small{Fuente: Elaboración propia.}}
 \end{center}
 \end{table}
 
@@ -1222,7 +1224,7 @@ F(X): X: Secuencia de imágenes con expresiones faciales.
 Secuencia de imágenes con expresiones faciales. & Reconoce expresión facial. \\ \hline
 \end{tabular} 
 \begin{center}
-{\small{Fuente: \cite{FALTA}}}
+{\small{Fuente: Elaboración propia.}}
 \end{center}
 \end{table}
 
@@ -1237,7 +1239,7 @@ El programa se encarga de descomponer la secuencia de imágenes y analizar cada 
 \end{itemize}
 
 \subsection{Diseño del agente inteligente}
-Teniendo en cuenta todos los elementos vistos en los puntos anteriores podemos proseguir con el diseño de nuestro agente inteligente, el cual mediante el sensor (cámara) percibe las secuencias dinámicas de imágenes con expresiones faciales y las evalúa según los pasos de visión artificial y muestra en la pantalla del actuador (computador) la expresión reconocida. para una mejor visualización podemos observar la figura 3.
+Teniendo en cuenta todos los elementos vistos en los puntos anteriores podemos proseguir con el diseño de nuestro agente inteligente, el cual mediante el sensor (cámara) percibe las secuencias dinámicas de imágenes con expresiones faciales y las evalúa según los pasos de visión artificial y muestra en la pantalla del actuador (computador) la expresión reconocida. para una mejor visualización podemos observar la figura 3.1.
 
 \begin{figure}[ht]
 \begin{center}
@@ -1262,6 +1264,7 @@ al 5.
 \bf 0 & \bf 1 & \bf 2 & \bf 3 & \bf 4 & \bf 5 \\ \hline
 No aplica & Malo & Regular & Normal & Bueno & Muy bueno \\ \hline 
 \end{tabular}
+{\small{Fuente: Elaboración propia.}}
 \end{table}
 
 \vskip 3cm
