@@ -24,6 +24,11 @@ Alegre, E., Sánchez, L., Fernandez-Diaz, R., and Carlos~Mostaza, J. (2003).
 Alvarez, D.~A. and Guevara, M.~L. (2009).
 \newblock Reconocimiento de expresiones faciales prototipo usando ica.
 
+\bibitem[Amazon, 2018]{Amazon}
+Amazon (2018).
+\newblock {\em Amazon}.
+\newblock \url{https://www.amazon.com}.
+
 \bibitem[Bajaj et~al., 2013]{Bajaj}
 Bajaj, N., Happy, S., and Routray (2013).
 \newblock Dynamic model of faial expression recognition based on eigen-face
@@ -53,6 +58,10 @@ Castrillom, W.~A., ALVAREZ, D.~A., and LÓPEZ, A.~F. (2008).
 Ekman, P. (1970).
 \newblock Universal facial expression of emotions.
 \newblock {\em California Mental Health Research Digest}, 8(4):151--158.
+
+\bibitem[Julián and Botti, 2000]{Julian}
+Julián, V.~J. and Botti, V. (2000).
+\newblock Agentes inteligentes:el siguiente pasoen la inteligencia artificial.
 
 \bibitem[Lopez~Rincon, 2015]{Lopez}
 Lopez~Rincon, O. (2015).
