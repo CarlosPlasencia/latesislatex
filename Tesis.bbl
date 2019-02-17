@@ -40,6 +40,11 @@ Bartual~González, R. (2017).
   faciales.
 \newblock {\em California Mental Health Research Digest}, page~13.
 
+\bibitem[Bernal, 2006]{Bernal}
+Bernal, C.~A. (2006).
+\newblock {\em Metodología de la investigación}.
+\newblock Pearson.
+
 \bibitem[Cama~C., 2015]{Cama}
 Cama~C., Y.~A. (2015).
 \newblock Prototipo computacional para la detección y clasificación de
@@ -86,6 +91,11 @@ Nwana, H.~S. (1996).
 Pajares, M., De~La~Cruz, G., and M., J. (2001).
 \newblock {\em Vsión por computador: Imágenes digitales y aplicaciones}.
 \newblock RA-MA S.A. Editorial y Publicaciones.
+
+\bibitem[Pantic and Patras, 2006]{Pantic}
+Pantic, M. and Patras, I. (2006).
+\newblock Dynamics of facial expression: Recognition of facial actions and
+  their temporal segments from face profile image sequences.
 
 \bibitem[Posada~P., 2010]{Web}
 Posada~P., F. (2010).
