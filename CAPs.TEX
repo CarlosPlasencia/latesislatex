@@ -485,7 +485,7 @@ Agentes encargados de alertar al usuario cuando sucede un determinado evento que
 \end{itemize}
 
 \subsection{Aplicaciones}
-Los agentes inteligentes gracias a su facilidad de adaptabilidad numerosas aplicaciones basadas en este nuevo paradigma vienen siendo empleadas en infinidad de áreas, como describe Julián y Bottier los agentes inteligentes se pueden emplear en procesos industriales, aplicaciones médicas, aplicaciones comerciales y de entretenimiento.
+Los agentes inteligentes gracias a su facilidad de adaptabilidad numerosas aplicaciones basadas en este nuevo paradigma vienen siendo empleadas en infinidad de áreas, como describe \cite{Julian} los agentes inteligentes se pueden emplear en procesos industriales, aplicaciones médicas, aplicaciones comerciales y de entretenimiento.
 \vskip 0.1cm
 Dentro del marco de las aplicaciones industriales podríamos destacar aquellas que se encargan de:
 
@@ -1259,12 +1259,15 @@ al 5.
 
 \begin{table}[ht!]
 \centering
+\caption{Escala de evaluación.} \vskip 0.1cm
 \begin{tabular}{|c|c|c|c|c|c|c|} \hline
 \bf 0 & \bf 1 & \bf 2 & \bf 3 & \bf 4 & \bf 5 \\ \hline
 No aplica & Malo & Regular & Normal & Bueno & Muy bueno \\ \hline 
 \end{tabular}
-\end{table}
+\begin{center}
 {\small{Fuente: Elaboración propia.}}
+\end{center}
+\end{table}
 \vskip 3cm
 
 \begin{itemize}
@@ -1274,6 +1277,7 @@ La percepción del entorno se hace a través de una cámara web, en la sección 
 
 \begin{table}[h!]
 \centering
+\caption{Cuadro comparativo de cámaras.} \vskip 0.1cm
 \begin{tabular}{|p{4.5cm} |p{2.8cm} |p{2.5cm} |p{2.5cm}|} \hline
 
 Algoritmo \par \vskip 0.4cm Criterio & Microsoft LifeCam HD-3000 & Hd Logitech C270 & Genius FaceCam 1000X \\ \hline
@@ -1285,6 +1289,9 @@ Zoom digital & 5 & 5 & 3 \\ \hline
 {\bf Total} & 16 & 18 & 15 \\ \hline 
 
 \end{tabular}
+\begin{center}
+{\small{Fuente: Elaboración propia.}}
+\end{center}
 \end{table}
 
 De acuerdo a los resultados de la comparación decidimos utilizar la cámara web {\bf Hd Logitech C270.}
@@ -1471,7 +1478,7 @@ La expresión facial es la forma que toma el rostro según la forma de sus compo
 \end{figure}
 
 Tipos de expresiones faciales: \vskip 0.1cm
-Según Ekman, P. (1970) son 6 expresiones básicas universales más un estado que es considerado neutro.
+Según \cite{Ekman} son 6 expresiones básicas universales más un estado que es considerado neutro.
 
 \begin{figure}[ht]
 \begin{center}
@@ -1510,6 +1517,7 @@ Para demostrar el funcionamiento del agente inteligente utilizamos el modelo de 
 
 \begin{table}[ht!]
 \centering
+\caption{Matriz de confusión} \vskip 0.1cm
 \begin{tabular}{|c|c|c|c|} \hline
  & Expresión \par & Expresión \par \\
 & reconocida & mal reconocida\\ \hline
@@ -1518,6 +1526,9 @@ correcta & & \\ \hline
 Expresión \par & \bf FP & \bf VN \\ 
 incorrecta & & \\ \hline 
 \end{tabular}
+\begin{center}
+{\small{Fuente: Elaboración propia.}}
+\end{center}
 \end{table}
 
 Donde: \vskip 0.1cm
@@ -1682,6 +1693,7 @@ Clase Felicidad:
 
 \begin{table}[ht!]
 \centering
+\caption{Matriz de confusión Múltiple de la clase felicidad.} \vskip 0.1cm
 \begin{tabular}{|c|c|c|c|c|c|c|c|c|} \hline
  & \bf Asco & \bf Asombro & \bf Enojo & \bf Felicidad & \bf Miedo & \bf Normal & \bf Tristeza \\ \hline
 \bf Asco & 63 & 2 & 0 & 2 & 1 & 2 & 0 \\ \hline
@@ -1693,16 +1705,23 @@ Clase Felicidad:
 \bf Tristeza & 0 & 0 & 0 & 0 & 1 & 2 & 67 \\ \hline
 
 \end{tabular}
+\begin{center}
+{\small{Fuente: Elaboración propia.}}
+\end{center}
 \end{table}
 
 \begin{table}[ht!]
 \centering
+\caption{Matriz de confusión de la clase felicidad.} \vskip 0.1cm
 \begin{tabular}{|c|c|c|} \hline
 \bf 70 \par & \bf 0 \par \\
 \bf VP & \bf FN \\ \hline
 \bf 6 \par & \bf 414 \par \\ 
 \bf FP & \bf VN \\ \hline 
 \end{tabular}
+\begin{center}
+{\small{Fuente: Elaboración propia.}}
+\end{center}
 \end{table}
 
 \begin{equation}
@@ -1723,6 +1742,7 @@ Clase Miedo:
 
 \begin{table}[ht!]
 \centering
+\caption{Matriz de confusión Múltiple de la clase miedo.} \vskip 0.1cm
 \begin{tabular}{|c|c|c|c|c|c|c|c|c|} \hline
  & \bf Asco & \bf Asombro & \bf Enojo & \bf Felicidad & \bf Miedo & \bf Normal & \bf Tristeza \\ \hline
 \bf Asco & 63 & 2 & 0 & 2 & 1 & 2 & 0 \\ \hline
@@ -1734,16 +1754,23 @@ Clase Miedo:
 \bf Tristeza & 0 & 0 & 0 & 0 & 1 & 2 & 67 \\ \hline
 
 \end{tabular}
+\begin{center}
+{\small{Fuente: Elaboración propia.}}
+\end{center}
 \end{table}
 
 \begin{table}[ht!]
 \centering
+\caption{Matriz de confusión de la clase miedo.} \vskip 0.1cm
 \begin{tabular}{|c|c|c|} \hline
 \bf 55 \par & \bf 15 \par \\
 \bf VP & \bf FN \\ \hline
 \bf 2 \par & \bf 418 \par \\ 
 \bf FP & \bf VN \\ \hline 
 \end{tabular}
+\begin{center}
+{\small{Fuente: Elaboración propia.}}
+\end{center}
 \end{table}
 
 \begin{equation}
@@ -1764,6 +1791,7 @@ Clase Normal:
 
 \begin{table}[ht!]
 \centering
+\caption{Matriz de confusión Múltiple de la clase normal.} \vskip 0.1cm
 \begin{tabular}{|c|c|c|c|c|c|c|c|c|} \hline
  & \bf Asco & \bf Asombro & \bf Enojo & \bf Felicidad & \bf Miedo & \bf Normal & \bf Tristeza \\ \hline
 \bf Asco & 63 & 2 & 0 & 2 & 1 & 2 & 0 \\ \hline
@@ -1775,16 +1803,23 @@ Clase Normal:
 \bf Tristeza & 0 & 0 & 0 & 0 & 1 & 2 & 67 \\ \hline
 
 \end{tabular}
+\begin{center}
+{\small{Fuente: Elaboración propia.}}
+\end{center}
 \end{table}
 
 \begin{table}[ht!]
 \centering
+\caption{Matriz de confusión de la clase normal.} \vskip 0.1cm
 \begin{tabular}{|c|c|c|} \hline
 \bf 68 \par & \bf 2 \par \\
 \bf VP & \bf FN \\ \hline
 \bf 14 \par & \bf 406 \par \\ 
 \bf FP & \bf VN \\ \hline 
 \end{tabular}
+\begin{center}
+{\small{Fuente: Elaboración propia.}}
+\end{center}
 \end{table}
 
 \begin{equation}
@@ -1805,6 +1840,7 @@ Clase Tristeza:
 
 \begin{table}[ht!]
 \centering
+\caption{Matriz de confusión Múltiple de la clase tristeza.} \vskip 0.1cm
 \begin{tabular}{|c|c|c|c|c|c|c|c|c|} \hline
  & \bf Asco & \bf Asombro & \bf Enojo & \bf Felicidad & \bf Miedo & \bf Normal & \bf Tristeza \\ \hline
 \bf Asco & 63 & 2 & 0 & 2 & 1 & 2 & 0 \\ \hline
@@ -1816,16 +1852,23 @@ Clase Tristeza:
 \bf Tristeza & 0 & 0 & 0 & 0 & 1 & 2 & 67 \\ \hline
 
 \end{tabular}
+\begin{center}
+{\small{Fuente: Elaboración propia.}}
+\end{center}
 \end{table}
 
 \begin{table}[ht!]
 \centering
+\caption{Matriz de confusión de la clase tristeza.} \vskip 0.1cm
 \begin{tabular}{|c|c|c|} \hline
 \bf 67 \par & \bf 3 \par \\
 \bf VP & \bf FN \\ \hline
 \bf 5 \par & \bf 415 \par \\ 
 \bf FP & \bf VN \\ \hline 
 \end{tabular}
+\begin{center}
+{\small{Fuente: Elaboración propia.}}
+\end{center}
 \end{table}
 
 \begin{equation}
