@@ -6,8 +6,26 @@ A level-1 auxiliary file: Apendice.aux
 Database file #1: Bibliografia.bib
 Warning--I didn't find a database entry for "FALTA"
 Warning--I didn't find a database entry for "Patras"
+Warning--I didn't find a database entry for "Amazon"
+Name 2 in "Merchán, Fernando and Galeano, Sebastián, and Poveda, Héctor" has a comma at the end for entry Fernando
+while executing---line 1023 of file apalike.bst
+Warning--empty journal in Adams
+Warning--empty journal in Aguilar
+Warning--empty publisher in Matlab
+Warning--empty journal in Damian
 Warning--empty journal in Bajaj
 Warning--empty journal in Cama
+Warning--empty journal in Carrascosa
+Warning--empty journal in Willian
+Warning--empty journal in Lopez
+Warning--empty journal in Isaac
+Name 2 in "Merchán, Fernando and Galeano, Sebastián, and Poveda, Héctor" has a comma at the end for entry Fernando
+while executing---line 1098 of file apalike.bst
+Warning--empty journal in Fernando
 Warning--empty journal in Nwana
+Warning--empty publisher in Web
 Warning--empty publisher in Russel
-(There were 6 warnings)
+Warning--empty publisher in Foto
+Warning--empty journal in Rafael
+Warning--empty journal in Zeyun
+(There were 2 error messages)

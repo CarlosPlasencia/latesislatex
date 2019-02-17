@@ -69,7 +69,7 @@ El diseño de investigación elegido es diseño pre-experimental, con una medici
 \begin{center}
 \vskip -0.5cm
 \caption{\small{Introducción a la metodología de la investigación.}}
-{\small{Fuente: \cite{FALTA}}}
+{\small{Fuente: \cite{bernalMetodologia}}}
 \end{center}
 \end{figure}
 
@@ -92,6 +92,7 @@ Las variables que se han determinado son las siguientes:
 
 \begin{table}[h!]
 \centering
+\caption{Operacionalizácion de variables.} \vskip 0.1cm
 \begin{tabular}{|p{3.5cm} |p{5.7cm} |p{2.4cm} |p{3.6cm}|} \hline
 
 \textit{{\bf{Variable}}} & \textit{{\bf{Definición}}} & \textit{{\bf{Dimensión}}} & \textit{{\bf{Indicador}}} \vskip 0.1cm \\ \hline
@@ -102,6 +103,9 @@ tendiendo a maximizar un resultado esperado. \vskip 0.1cm & Sensibilidad \par \v
 Reconocimiento de expresiones faciales en secuencias dinámicas de imágenes \vskip 0.1cm & Extraccion de caracteristicas de un rostro obtenido de una secuencia dinamica de imagenes, utilizando técnicas de preprocesamiento, segmentación, descripción y clasificadores para el reconocimiento de esxpresiones faciales. \vskip 0.1cm & Precisión \vskip 0.1cm & \% Nivel de acierto / desacierto en reconocimiento de la expresión facial \vskip 0.1cm \\ \hline
 
 \end{tabular}
+\begin{center}
+{\small{Fuente: Elaboración propia}}
+\end{center}
 \end{table}
 
 \subsection{Población y muestra}
@@ -455,7 +459,7 @@ Una vez que los agentes están disponibles, hay dos arquitecturas posibles para 
 
 \subsubsection{Clasificación según su función)}
 
-\cite{Carrascosa} clasifica los agentes según su función:
+ \cite{Carrascosa} clasifica los agentes según su función:
 
 \begin{itemize}
 \item[•] {\bf Agentes de búsqueda:} \vskip 0.1cm
@@ -589,10 +593,6 @@ Independientemente de la técnica que sea implementada, se utilizan siempre dos 
 \vskip 0.1cm
 {\bf La interpretación} es el proceso que asocia un significado a un conjunto de objetos reconocidos (llaves, tornillos, herramientas, etc.) y trata de emular la cognición.
 
-[4]Jorge Rafael Valvert Gamboa, Métodos y Técnicas de Reconocimiento de Rostros en Imágenes Digitales Bidimensionale
-
-[5] Face Analysis Techniques for Human-Computer Interaction , Dissertations in Interactive Technology, Number 8 , Tampere 2017 , University of Tampere 
- 
 \end{itemize}
 
 \subsection{Captura o adquisición de imágenes}
@@ -748,7 +748,6 @@ H(Q)=\frac{L-1}{n*m}
 
 Donde Donde L es el valor máximo del conjunto Q= {0, ..., Q - 1} que representa los q Niveles de Intensidad (NI) de la imagen f: n x m $\rightarrow$ Q x Q con dimensión de (n x m) y donde hf es el histograma de la imagen. \vskip 0.1cm
 Debido a la redistribución de esta probabilidad de ocurrencia de niveles de grises de una manera uniforme, la percepción de los detalles de la imagen mejora. De la ecuación anterior se pueden derivar diferentes tipos de ecualizaciones, siendo las más conocidas ecualización uniforme, exponencial y la de Rayleigh \citep{Pajares}. \vskip 0.1cm
-[6] PAJARES MARTÍ SANZ, Arturo y DE LA CRUZ, Jesús M. Visión por computador, imágenes digitales y aplicaciones. España, 2001.
 
 {\bf \item[•] Filtro paso alto} \vskip 0.1cm
 Según \citep{Enrique} los filtros paso alto realizan un realzado de los detalles de la imagen. Este tipo de filtros atenúa las zonas uniformes y enfatiza los detalles de interés. Al contrario que los filtros paso bajo, elimina el componente media. Permitir el paso de las altas frecuencias produce como resultado una imagen llena de bordes y discontinuidades en la que la eliminación de los términos de baja frecuencia produce una reducción significativa del contraste global de la imagen. Debe tener coeficientes negativos en la periferia y positivos en el centro, y la suma de todos ellos debe ser cero. Así, cuando la máscara se encuentre sobre una zona uniforme, la salida proporcionada por la máscara será cero o próxima a dicho valor (Figura 2.12).
@@ -1304,6 +1303,7 @@ Las etapas del procesos de visión computacional que vamos a aplicar sobre  las 
 
 \begin{table}[h!]
 \centering
+\caption{Cuadro comparativo de técnicas de realce.} \vskip 0.1cm
 \begin{tabular}{|p{4.8cm} |p{2.3cm} |p{3cm} |p{2cm}|} \hline
 
 Algoritmo \par \vskip 0.4cm Criterio & Ampliación del contraste & Ecualización por histograma & Filtro paso alto \\ \hline
@@ -1314,6 +1314,9 @@ Procesamiento puntual & 2 & 4 & 2 \\ \hline
 {\bf Total} & 7 & 11 & 8 \\ \hline 
 
 \end{tabular}
+\begin{center}
+{\small{Fuente: Elaboración propia}}
+\end{center}
 \end{table}
 
 En base a los resultados obtenidos, la técnica de realce de contraste que se debería emplear es la de filtro paso alto. 
@@ -1322,6 +1325,7 @@ En base a los resultados obtenidos, la técnica de realce de contraste que se de
 
 \begin{table}[h!]
 \centering
+\caption{Cuadro comparativo de técnicas de reducción de ruido mediante filtros.} \vskip 0.1cm
 \begin{tabular}{|p{4.4cm} |p{3.4cm} |p{2.3cm} |p{2cm}|} \hline
 
 Algoritmo \par \vskip 0.4cm Criterio & Apertura (Erosión, Dilatación) & Filtro de la mediana & Filtro Gaussiano \\ \hline
@@ -1332,6 +1336,9 @@ Suavizado uniforme & 3 & 2 & 4 \\ \hline
 {\bf Total} & 8 & 7 & 10 \\ \hline 
 
 \end{tabular}
+\begin{center}
+{\small{Fuente: Elaboración propia}}
+\end{center}
 \end{table}
 
 En base a los resultados obtenidos, la técnica de reducción de ruido que se debería emplear es el filtro gaussiano.
@@ -1341,6 +1348,7 @@ En base a los resultados obtenidos, la técnica de reducción de ruido que se de
 
 \begin{table}[h!]
 \centering
+\caption{Cuadro comparativo de algoritmos de segmentación.} \vskip 0.1cm
 \begin{tabular}{|p{4.4cm} |p{1.5cm} |p{3.7cm} |} \hline
 
 Descriptor \par \vskip 0.4cm Criterio & HAAR & HOG (Histograma de gradiente orientado) \\ \hline
@@ -1351,6 +1359,9 @@ Tiempo de procesamiento & 2 & 4 \\ \hline
 {\bf Total} & 10 & 11 \\ \hline 
 
 \end{tabular}
+\begin{center}
+{\small{Fuente: Elaboración propia}}
+\end{center}
 \end{table}
 
 En base a los resultados obtenidos, el descriptor para obtener el rostro que se debería emplear es el descriptor HOG.
@@ -1359,6 +1370,7 @@ En base a los resultados obtenidos, el descriptor para obtener el rostro que se 
 
 \begin{table}[h!]
 \centering
+\caption{Cuadro comparativo de algoritmos de descripción.} \vskip 0.1cm
 \begin{tabular}{|p{4.7cm} |p{4.3cm} |p{2.5cm} |p{1.3cm}|} \hline
 
 Algoritmo \par \vskip 0.4cm Criterio & Análisis de componentes independientes (ICA) & Patrón binario local (LBP) & Filtro Gabor \\ \hline
@@ -1369,6 +1381,9 @@ Cantidad de píxeles en el objeto & 3 & 4 & 3 \\ \hline
 {\bf Total} & 8 & 11 & 9 \\ \hline 
 
 \end{tabular}
+\begin{center}
+{\small{Fuente: Elaboración propia}}
+\end{center}
 \end{table}
 
 En base a los resultados obtenidos, la técnica de descripción que se debería emplear es Patrón binario local (LBP).
@@ -1379,6 +1394,7 @@ En base a los resultados obtenidos, la técnica de descripción que se debería 
 
 \begin{table}[h!]
 \centering
+\caption{Cuadro comparativo de algoritmos de reconocimiento e interpretación.} \vskip 0.1cm
 \begin{tabular}{|p{4.5cm} |p{2.8cm} |p{3.5cm} |p{3cm}|} \hline
 
 Algoritmo \par \vskip 0.4cm Criterio & Redes Neuronales & Máquinas de Vector Soporte (SVM) & k vecinos más próximos (KNN) \\ \hline
@@ -1388,6 +1404,9 @@ Eficiencia reconocimiento & 3 & 4 & 3 \\ \hline
 {\bf Total} & 7 & 9 & 6 \\ \hline 
 
 \end{tabular}
+\begin{center}
+{\small{Fuente: Elaboración propia}}
+\end{center}
 \end{table}
 
 \end{enumerate}
@@ -1515,6 +1534,7 @@ Clase Asco:
 
 \begin{table}[ht!]
 \centering
+\caption{Matriz de confusión múltiple de la clase asco.} \vskip 0.1cm
 \begin{tabular}{|c|c|c|c|c|c|c|c|c|} \hline
  & \bf Asco & \bf Asombro & \bf Enojo & \bf Felicidad & \bf Miedo & \bf Normal & \bf Tristeza \\ \hline
 \bf Asco & 63 & 2 & 0 & 2 & 1 & 2 & 0 \\ \hline
@@ -1526,17 +1546,24 @@ Clase Asco:
 \bf Tristeza & 0 & 0 & 0 & 0 & 1 & 2 & 67 \\ \hline
 
 \end{tabular}
+\begin{center}
+{\small{Fuente: Elaboración propia}}
+\end{center}
 \end{table}
 
 
 \begin{table}[ht!]
 \centering
+\caption{Matriz de confusión de la clase asco.} \vskip 0.1cm
 \begin{tabular}{|c|c|c|} \hline
 \bf 63 \par & \bf 7 \par \\
 \bf VP & \bf FN \\ \hline
 \bf 4 \par & \bf 416 \par \\ 
 \bf FP & \bf VN \\ \hline 
 \end{tabular}
+\begin{center}
+{\small{Fuente: Elaboración propia}}
+\end{center}
 \end{table}
 
 \begin{equation}
@@ -1557,6 +1584,7 @@ Clase Asombro:
 
 \begin{table}[ht!]
 \centering
+\caption{Matriz de confusión múltiple de la clase asombro.} \vskip 0.1cm
 \begin{tabular}{|c|c|c|c|c|c|c|c|c|} \hline
  & \bf Asco & \bf Asombro & \bf Enojo & \bf Felicidad & \bf Miedo & \bf Normal & \bf Tristeza \\ \hline
 \bf Asco & 63 & 2 & 0 & 2 & 1 & 2 & 0 \\ \hline
@@ -1568,16 +1596,23 @@ Clase Asombro:
 \bf Tristeza & 0 & 0 & 0 & 0 & 1 & 2 & 67 \\ \hline
 
 \end{tabular}
+\begin{center}
+{\small{Fuente: Elaboración propia}}
+\end{center}
 \end{table}
 
 \begin{table}[ht!]
 \centering
+\caption{Matriz de confusión de la clase asombro.} \vskip 0.1cm
 \begin{tabular}{|c|c|c|} \hline
 \bf 68 \par & \bf 2 \par \\
 \bf VP & \bf FN \\ \hline
 \bf 2 \par & \bf 418 \par \\ 
 \bf FP & \bf VN \\ \hline 
 \end{tabular}
+\begin{center}
+{\small{Fuente: Elaboración propia}}
+\end{center}
 \end{table}
 
 \begin{equation}
@@ -1598,6 +1633,7 @@ Clase Enojo:
 
 \begin{table}[ht!]
 \centering
+\caption{Matriz de confusión múltiple de la clase enojo.} \vskip 0.1cm
 \begin{tabular}{|c|c|c|c|c|c|c|c|c|} \hline
  & \bf Asco & \bf Asombro & \bf Enojo & \bf Felicidad & \bf Miedo & \bf Normal & \bf Tristeza \\ \hline
 \bf Asco & 63 & 2 & 0 & 2 & 1 & 2 & 0 \\ \hline
@@ -1609,16 +1645,23 @@ Clase Enojo:
 \bf Tristeza & 0 & 0 & 0 & 0 & 1 & 2 & 67 \\ \hline
 
 \end{tabular}
+\begin{center}
+{\small{Fuente: Elaboración propia}}
+\end{center}
 \end{table}
 
 \begin{table}[ht!]
 \centering
+\caption{Matriz de confusión de la clase enojo.} \vskip 0.1cm
 \begin{tabular}{|c|c|c|} \hline
 \bf 66 \par & \bf 4 \par \\
 \bf VP & \bf FN \\ \hline
 \bf 0 \par & \bf 420 \par \\ 
 \bf FP & \bf VN \\ \hline 
 \end{tabular}
+\begin{center}
+{\small{Fuente: Elaboración propia}}
+\end{center}
 \end{table}
 
 \begin{equation}
@@ -1810,12 +1853,17 @@ donde i es el número de expresiones.
 
 \begin{table}[ht!]
 \centering
+\caption{Sensibilidad total por clase.} \vskip 0.1cm
 \begin{tabular}{|c|c|c|c|c|c|c|c|c|c|} \hline
 \bf Expresión & \bf Asco & \bf Asombro & \bf Enojo & \bf Felicidad & \bf Miedo & \bf Normal & \bf Tristeza & \bf Total \\ \hline
 \bf Sensibilidad & 90 & 97.14 & 94.29 & 100 & 78.57 & 97.14 & 95.71 & 93.26 \\ \hline
 
 \end{tabular}
+\begin{center}
+{\small{Fuente: Elaboración propia}}
+\end{center}
 \end{table}
+
 
 \vskip 1cm
 
@@ -1830,11 +1878,15 @@ donde i es el número de expresiones.
 
 \begin{table}[ht!]
 \centering
+\caption{Especificidad total por clase.} \vskip 0.1cm
 \begin{tabular}{|c|c|c|c|c|c|c|c|c|c|} \hline
 \bf Expresión & \bf Asco & \bf Asombro & \bf Enojo & \bf Felicidad & \bf Miedo & \bf Normal & \bf Tristeza & \bf Total \\ \hline
 \bf Especificidad & 99.05 & 99.52 & 100 & 98.57 & 99.52 & 96.67 & 98.81 & 98.88 \\ \hline
 
 \end{tabular}
+\begin{center}
+{\small{Fuente: Elaboración propia}}
+\end{center}
 \end{table}
 
 \vskip 1cm
@@ -1850,11 +1902,15 @@ donde i es el número de expresiones.
 
 \begin{table}[ht!]
 \centering
+\caption{Precisión total por clase} \vskip 0.1cm
 \begin{tabular}{|c|c|c|c|c|c|c|c|c|c|} \hline
 \bf Expresión & \bf Asco & \bf Asombro & \bf Enojo & \bf Felicidad & \bf Miedo & \bf Normal & \bf Tristeza & \bf Total \\ \hline
 \bf Precisión & 94.03 & 97.14 & 100 & 92.11 & 96.49 & 82.93 & 93.06 & 93.68 \\ \hline
 
 \end{tabular}
+\begin{center}
+{\small{Fuente: Elaboración propia}}
+\end{center}
 \end{table}
 
 Comparamos la precisión de nuestro agente inteligente con la precisión de nuestros antecedentes: podemos concluir que nuestro agente inteligente tuvo una mayor tasa de reconocimiento de expresiones faciales. 
