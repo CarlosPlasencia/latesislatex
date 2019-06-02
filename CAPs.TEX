@@ -1228,7 +1228,7 @@ Secuencia de imágenes con expresiones faciales. & Reconoce expresión facial. \
 \end{table}
 
 \subsection{Programa del agente}
-El programa se encarga de descomponer la secuencia de imágenes y analizar cada una para realizar el proceso de visión computacional para poder reconocer las expresiones faciales y poder mostrar luego los resultados en pantalla. Los pasos de visión computacional son:
+El programa se encarga de descomponer y analizar la secuencia de imágenes, realizar el proceso de visión computacional en cada imagen descompuesta, reconocer las expresiones faciales y mostrar los resultados en pantalla. Los pasos de visión computacional son:
 
 \begin{itemize}
 \item[•] Preprocesamiento
@@ -1238,7 +1238,7 @@ El programa se encarga de descomponer la secuencia de imágenes y analizar cada 
 \end{itemize}
 
 \subsection{Diseño del agente inteligente}
-Teniendo en cuenta todos los elementos vistos en los puntos anteriores podemos proseguir con el diseño de nuestro agente inteligente, el cual mediante el sensor (cámara) percibe las secuencias dinámicas de imágenes con expresiones faciales y las evalúa según los pasos de visión artificial y muestra en la pantalla del actuador (computador) la expresión reconocida. para una mejor visualización podemos observar la figura 3.1.
+Teniendo en cuenta todos los elementos vistos en los puntos anteriores podemos proseguir con el diseño de nuestro agente inteligente, el cual mediante el sensor (cámara) percibe las secuencias dinámicas de imágenes con expresiones faciales, las evalúa según los pasos de visión artificial y muestra en la pantalla del actuador (computador) la expresión reconocida. para una mejor visualización podemos observar la figura 3.1.
 
 \begin{figure}[ht]
 \begin{center}
@@ -1254,8 +1254,7 @@ Teniendo en cuenta todos los elementos vistos en los puntos anteriores podemos p
 \vskip 3cm
 
 \section{Clasificación de algoritmos}
-En cada etapa del diseño vamos a ver distintos criterios que usaremos para evaluar tanto en la parte de las cámaras como los algoritmos del programa del agente. El criterio de evaluación para los procesos a continuación está basado en una escala del 0
-al 5.
+En cada etapa del diseño vamos a ver distintos criterios que usaremos para evaluar tanto en la parte de las cámaras como en los algoritmos del programa para el agente. El criterio de evaluación para los procesos está basado en una escala del 0 al 5.
 
 \begin{table}[ht!]
 \centering
@@ -1297,10 +1296,10 @@ Zoom digital & 5 & 5 & 3 \\ \hline
 De acuerdo a los resultados de la comparación decidimos utilizar la cámara web {\bf Hd Logitech C270.}
 \vskip 0.1cm
 {\bf Actuadores:} \vskip 0.1cm
-La salida se mostrará en pantalla del monitor de la computadora del agente, indicando si fue reconocido la expresión facial.
+La salida se mostrará en el monitor del computador, indicando si fue reconocido la expresión facial.
 
 \item[•] {\bf Programa del agente:} \vskip 0.1cm
-Las etapas del procesos de visión computacional que vamos a aplicar sobre  las secuencias de imágenes presentadas en la sección 2.4, se presentan a continuación, por cada una de estas etapas compararemos distintos algoritmos para escoger el más adecuado para el reconocimiento.
+Las etapas del proceso de visión computacional que se aplicó sobre la secuencia dinámica de imágenes presentada en la sección 2.4, son comparadas y se escogió al más adecuado para el reconocimiento, todo ello se presenta a continuación.
 
 \begin{enumerate}
 {\bf \item Pre procesamiento de la imagen:} \vskip 0.1cm
@@ -1326,7 +1325,7 @@ Procesamiento puntual & 2 & 4 & 2 \\ \hline
 \end{center}
 \end{table}
 
-En base a los resultados obtenidos, la técnica de realce de contraste que se debería emplear es la de filtro paso alto. 
+En base a los resultados obtenidos, la técnica de realce de contraste que se debería emplear es el filtro paso alto. 
 
 {\bf \item[1.2.] Técnicas de reducción de ruido mediante filtros:} \vskip 0.1cm
 
@@ -1393,7 +1392,7 @@ Cantidad de píxeles en el objeto & 3 & 4 & 3 \\ \hline
 \end{center}
 \end{table}
 
-En base a los resultados obtenidos, la técnica de descripción que se debería emplear es Patrón binario local (LBP).
+En base a los resultados obtenidos, la técnica de descripción que se debería emplear es el Patrón binario local (LBP).
 
 \vskip 3cm
 
