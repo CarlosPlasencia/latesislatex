@@ -1,39 +1,39 @@
 \babel@toc {spanish}{}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {2.1}{\ignorespaces Ejemplo de funci\IeC {\'o}n de un agente aspiradora.}}{8}% 
-\contentsline {table}{\numberline {2.2}{\ignorespaces PEAS}}{10}% 
-\contentsline {table}{\numberline {2.3}{\ignorespaces Operacionaliz\IeC {\'a}cion de variables.}}{62}% 
-\contentsline {table}{\numberline {2.4}{\ignorespaces Indicador, t\IeC {\'e}cnicas e instrumentos de recolecci\IeC {\'o}n de datos.}}{64}% 
+\contentsline {table}{\numberline {2.1}{\ignorespaces Ejemplo de funci\IeC {\'o}n de un agente aspiradora.}}{8}
+\contentsline {table}{\numberline {2.2}{\ignorespaces PEAS}}{10}
+\contentsline {table}{\numberline {2.3}{\ignorespaces Operacionaliz\IeC {\'a}cion de variables.}}{62}
+\contentsline {table}{\numberline {2.4}{\ignorespaces Indicador, t\IeC {\'e}cnicas e instrumentos de recolecci\IeC {\'o}n de datos.}}{64}
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {3.1}{\ignorespaces PEAS Reconocimiento de expresiones faciales.}}{68}% 
-\contentsline {table}{\numberline {3.2}{\ignorespaces Funci\IeC {\'o}n del agente inteligente.}}{69}% 
-\contentsline {table}{\numberline {3.3}{\ignorespaces Escala de evaluaci\IeC {\'o}n.}}{71}% 
-\contentsline {table}{\numberline {3.4}{\ignorespaces Cuadro comparativo de c\IeC {\'a}maras.}}{72}% 
-\contentsline {table}{\numberline {3.5}{\ignorespaces Cuadro comparativo de t\IeC {\'e}cnicas de realce.}}{73}% 
-\contentsline {table}{\numberline {3.6}{\ignorespaces Cuadro comparativo de t\IeC {\'e}cnicas de reducci\IeC {\'o}n de ruido mediante filtros.}}{73}% 
-\contentsline {table}{\numberline {3.7}{\ignorespaces Cuadro comparativo de algoritmos de segmentaci\IeC {\'o}n.}}{73}% 
-\contentsline {table}{\numberline {3.8}{\ignorespaces Cuadro comparativo de algoritmos de descripci\IeC {\'o}n.}}{74}% 
-\contentsline {table}{\numberline {3.9}{\ignorespaces Cuadro comparativo de algoritmos de reconocimiento e interpretaci\IeC {\'o}n.}}{75}% 
+\contentsline {table}{\numberline {3.1}{\ignorespaces PEAS Reconocimiento de expresiones faciales.}}{68}
+\contentsline {table}{\numberline {3.2}{\ignorespaces Funci\IeC {\'o}n del agente inteligente.}}{69}
+\contentsline {table}{\numberline {3.3}{\ignorespaces Escala de evaluaci\IeC {\'o}n.}}{71}
+\contentsline {table}{\numberline {3.4}{\ignorespaces Cuadro comparativo de c\IeC {\'a}maras.}}{72}
+\contentsline {table}{\numberline {3.5}{\ignorespaces Cuadro comparativo de t\IeC {\'e}cnicas de realce.}}{73}
+\contentsline {table}{\numberline {3.6}{\ignorespaces Cuadro comparativo de t\IeC {\'e}cnicas de reducci\IeC {\'o}n de ruido mediante filtros.}}{73}
+\contentsline {table}{\numberline {3.7}{\ignorespaces Cuadro comparativo de algoritmos de segmentaci\IeC {\'o}n.}}{73}
+\contentsline {table}{\numberline {3.8}{\ignorespaces Cuadro comparativo de algoritmos de descripci\IeC {\'o}n.}}{74}
+\contentsline {table}{\numberline {3.9}{\ignorespaces Cuadro comparativo de algoritmos de reconocimiento e interpretaci\IeC {\'o}n.}}{75}
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {4.1}{\ignorespaces Matriz de confusi\IeC {\'o}n}}{81}% 
-\contentsline {table}{\numberline {4.2}{\ignorespaces Matriz de confusi\IeC {\'o}n m\IeC {\'u}ltiple de la clase asco.}}{82}% 
-\contentsline {table}{\numberline {4.3}{\ignorespaces Matriz de confusi\IeC {\'o}n de la clase asco.}}{82}% 
-\contentsline {table}{\numberline {4.4}{\ignorespaces Matriz de confusi\IeC {\'o}n m\IeC {\'u}ltiple de la clase asombro.}}{83}% 
-\contentsline {table}{\numberline {4.5}{\ignorespaces Matriz de confusi\IeC {\'o}n de la clase asombro.}}{83}% 
-\contentsline {table}{\numberline {4.6}{\ignorespaces Matriz de confusi\IeC {\'o}n m\IeC {\'u}ltiple de la clase enojo.}}{84}% 
-\contentsline {table}{\numberline {4.7}{\ignorespaces Matriz de confusi\IeC {\'o}n de la clase enojo.}}{84}% 
-\contentsline {table}{\numberline {4.8}{\ignorespaces Matriz de confusi\IeC {\'o}n M\IeC {\'u}ltiple de la clase felicidad.}}{85}% 
-\contentsline {table}{\numberline {4.9}{\ignorespaces Matriz de confusi\IeC {\'o}n de la clase felicidad.}}{85}% 
-\contentsline {table}{\numberline {4.10}{\ignorespaces Matriz de confusi\IeC {\'o}n M\IeC {\'u}ltiple de la clase miedo.}}{86}% 
-\contentsline {table}{\numberline {4.11}{\ignorespaces Matriz de confusi\IeC {\'o}n de la clase miedo.}}{86}% 
-\contentsline {table}{\numberline {4.12}{\ignorespaces Matriz de confusi\IeC {\'o}n M\IeC {\'u}ltiple de la clase normal.}}{87}% 
-\contentsline {table}{\numberline {4.13}{\ignorespaces Matriz de confusi\IeC {\'o}n de la clase normal.}}{87}% 
-\contentsline {table}{\numberline {4.14}{\ignorespaces Matriz de confusi\IeC {\'o}n M\IeC {\'u}ltiple de la clase tristeza.}}{88}% 
-\contentsline {table}{\numberline {4.15}{\ignorespaces Matriz de confusi\IeC {\'o}n de la clase tristeza.}}{88}% 
-\contentsline {table}{\numberline {4.16}{\ignorespaces Sensibilidad total por clase.}}{89}% 
-\contentsline {table}{\numberline {4.17}{\ignorespaces Especificidad total por clase.}}{90}% 
-\contentsline {table}{\numberline {4.18}{\ignorespaces Precisi\IeC {\'o}n total por clase}}{90}% 
+\contentsline {table}{\numberline {4.1}{\ignorespaces Matriz de confusi\IeC {\'o}n}}{81}
+\contentsline {table}{\numberline {4.2}{\ignorespaces Matriz de confusi\IeC {\'o}n m\IeC {\'u}ltiple de la clase asco.}}{82}
+\contentsline {table}{\numberline {4.3}{\ignorespaces Matriz de confusi\IeC {\'o}n de la clase asco.}}{82}
+\contentsline {table}{\numberline {4.4}{\ignorespaces Matriz de confusi\IeC {\'o}n m\IeC {\'u}ltiple de la clase asombro.}}{83}
+\contentsline {table}{\numberline {4.5}{\ignorespaces Matriz de confusi\IeC {\'o}n de la clase asombro.}}{83}
+\contentsline {table}{\numberline {4.6}{\ignorespaces Matriz de confusi\IeC {\'o}n m\IeC {\'u}ltiple de la clase enojo.}}{84}
+\contentsline {table}{\numberline {4.7}{\ignorespaces Matriz de confusi\IeC {\'o}n de la clase enojo.}}{84}
+\contentsline {table}{\numberline {4.8}{\ignorespaces Matriz de confusi\IeC {\'o}n M\IeC {\'u}ltiple de la clase felicidad.}}{85}
+\contentsline {table}{\numberline {4.9}{\ignorespaces Matriz de confusi\IeC {\'o}n de la clase felicidad.}}{85}
+\contentsline {table}{\numberline {4.10}{\ignorespaces Matriz de confusi\IeC {\'o}n M\IeC {\'u}ltiple de la clase miedo.}}{86}
+\contentsline {table}{\numberline {4.11}{\ignorespaces Matriz de confusi\IeC {\'o}n de la clase miedo.}}{86}
+\contentsline {table}{\numberline {4.12}{\ignorespaces Matriz de confusi\IeC {\'o}n M\IeC {\'u}ltiple de la clase normal.}}{87}
+\contentsline {table}{\numberline {4.13}{\ignorespaces Matriz de confusi\IeC {\'o}n de la clase normal.}}{87}
+\contentsline {table}{\numberline {4.14}{\ignorespaces Matriz de confusi\IeC {\'o}n M\IeC {\'u}ltiple de la clase tristeza.}}{88}
+\contentsline {table}{\numberline {4.15}{\ignorespaces Matriz de confusi\IeC {\'o}n de la clase tristeza.}}{88}
+\contentsline {table}{\numberline {4.16}{\ignorespaces Sensibilidad total por clase.}}{89}
+\contentsline {table}{\numberline {4.17}{\ignorespaces Especificidad total por clase.}}{90}
+\contentsline {table}{\numberline {4.18}{\ignorespaces Precisi\IeC {\'o}n total por clase}}{90}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
