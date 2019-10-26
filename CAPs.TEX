@@ -22,7 +22,7 @@ En este trabajo, se propone el diseño de un agente inteligente basado en el pro
 
 \section{Hipótesis}
 
-El diseño de un agente inteligente permite reconocer expresiones faciales en secuencias dinámicas de imágenes.
+A través del diseño de un agente inteligente se reconoce expresiones faciales en secuencias dinámicas de imágenes.
 
 
 \section{Objetivos}
@@ -33,19 +33,35 @@ Diseñar un agente inteligente que permita reconocer expresiones faciales en sec
 
 \subsection{Específicos}
 \begin{enumerate}
-\item[a)] Desarrollar un agente inteligente con un nivel de sensibilidad mayor al 90\% en reconocimiento de expresiones faciales en secuencia dinámica de imágenes.
+\item[a)] Recopilar información acerca del diseño de un agente inteligente aplicado al reconocimiento de expresiones faciales en secuencia dinámica de imágenes.
 
-\item[b)] Procurar  un nivel de especificidad del agente inteligente mayor al 95\% en reconocimiento de expresiones faciales en secuencia dinámica de imágenes.
+\item[b)] Elaboración de la arquitectura del agente inteligente para reconocimiento de expresiones faciales en secuencia dinámica de imágenes mediante las especificaciones del entorno de trabajo (PEAS).
 
-\item[c)] Obtener una tasa de reconocimiento de expresiones faciales mayor al 90\% en secuencia dinámica de imágenes.
+\item[c)] Comparar y analizar cada componente de la estructura del agente inteligente haciendo uso de una matriz de confusión.
 
-\item[d)] Determinar los resultados de aplicar el reconocimiento del agente a un conjunto de expresiones faciales seleccionadas.
+\item[d)] Elaborar el diseño de un agente inteligente basado en las evaluaciones de los componentes seleccionados.
+
+\item[e)] Alcanzar un tasa de sensibilidad del agente inteligente mayor al 90% 
+
+\item[f)] Alcanzar un tasa de especificidad del agente inteligente mayor al 95%
+
+\item[g)] Alcanzar un tasa de precisión del agente inteligente mayor al 90%
 \end{enumerate}
 
 
 \section{Estructura de la tesis}
 
-El presente trabajo consta de la siguiente estructura: La Introducción al proyecto en el capítulo I donde se describe la problemática a la que nos enfrentamos, formulamos así una hipótesis que solucione dicha problemática, además se enuncian los objetivos y las justificaciones de la investigación. En el Marco teórico, capítulo II, se describen los conceptos y teorías fundamentales para la comprensión y desarrollo del presente trabajo, los mismos que nos otorgaron una visión completa de los temas abordados en la investigación. En el capítulo III de la investigación se desarrolla los métodos, se seleccionaron las técnicas adecuadas para la implementación del sistema inteligente de reconocimiento expresiones faciales. Seguidamente en el capítulo de Resultados, se plasman los resultados obtenidos, es decir los valores de los indicadores propuestos para la investigación, los mismo que nos permiten llegar a nuestras conclusiones, para finalizar tenemos las referencias bibliográficas consultadas y el apéndice.
+El presente trabajo está dividido en 5 capítulos. El primer capítulo presenta los aspectos generales del tema tratado: Justificación de la investigación, La formulación del problema, Elaboración de la hipótesis, los objetivos, la contribución, además de la estructura de la tesis.
+
+En el capítulo dos se presenta el Marco teórico, se describen los conceptos y teorías fundamentales para la comprensión y desarrollo del presente trabajo, los mismos que nos otorgaron una visión completa de los temas abordados en la investigación. 
+
+En el tercer capítulo trata del tema central de la tesis donde se desarrollaron los métodos y se seleccionaron las técnicas adecuadas para el diseño del agente inteligente de reconocimiento expresiones faciales. 
+
+En el cuarto capítulo se plasman los resultados obtenidos, es decir los valores de los indicadores propuestos para la investigación, los mismo que nos permiten llegar a nuestras conclusiones, para finalizar tenemos las referencias bibliográficas consultadas y el apéndice.
+
+En el quinto capítulo se presentan las consideraciones finales obtenidas en esta tesis. Inicialmente se presentan las conclusiones, seguidas de las recomendaciones para futuras investigaciones relacionadas al tema.
+
+Finalmente, se describen las referencias bibliográficas usadas para la investigación usadas en esta tesis y los anexos donde se presentan el cuadro de resultados utilizados en fase prueba, interfaces del agente inteligente.
 
 \chapter{Materiales y métodos}
 
@@ -1098,7 +1114,7 @@ e = error de estimación (0.05)
 
 \vskip 0.5cm
 
-por lo tanto n = 349 secuencias de imágenes.
+por lo tanto n = 349 secuencias dinámicas de imágenes.
 
 \vskip 4.5cm
 
@@ -1165,8 +1181,8 @@ FP: falso positivo
 En el presente capítulo, se realiza  el diseño del agente inteligente, para eso primero veremos la estructura del agente y para cada fase del procesamiento haremos comparaciones de varios algoritmos para seleccionar los más adecuados para el reconocimiento de expresiones faciales.
 
 \section{Estructura del Agente}
-\subsection{PEAS}
-Primero vamos a realizar un análisis del entorno con el PEAS del agente visto en el capítulo anterior (sección 2.2.2) 
+\subsection{Análisis PEAS}
+Primero analizaremos el entorno en el cual trabajara nuestro agente inteligente, para esto identificamos cada uno de los elementos del PEAS (Performance, Entorno, Actuadores y Sensores) visto en el capítulo anterior (2.2.2).
 
 \begin{table}[ht!]
 \centering
@@ -1216,8 +1232,7 @@ El programa se encarga de descomponer y analizar la secuencia de imágenes, real
 \item[•] Reconocimiento e interpretación
 \end{itemize}
 
-
-\section{Diseño del agente inteligente}
+\subsection{Diseño del agente inteligente}
 Teniendo en cuenta todos los elementos vistos en los puntos anteriores podemos proseguir con el diseño de nuestro agente inteligente, el cual mediante el sensor (cámara) percibe las secuencias dinámicas de imágenes con expresiones faciales, las evalúa según los pasos de visión artificial y muestra en la pantalla del actuador (computador) la expresión reconocida. para una mejor visualización podemos observar la figura 3.1.
 
 \begin{figure}[ht]
@@ -1233,6 +1248,7 @@ Teniendo en cuenta todos los elementos vistos en los puntos anteriores podemos p
 
 \vskip 3cm
 
+\section{Clasificación de algoritmos}
 En cada etapa del diseño vamos a ver distintos criterios que usaremos para evaluar tanto en la parte de las cámaras como en los algoritmos del programa para el agente. El criterio de evaluación para los procesos está basado en una escala del 0 al 5.
 
 \begin{table}[ht!]
@@ -1248,8 +1264,9 @@ No aplica & Malo & Regular & Normal & Bueno & Muy bueno \\ \hline
 \end{table}
 \vskip 3cm
 
-\subsection{Sensor}
-
+\begin{itemize}
+\item[•] {\bf Arquitectura:} \vskip 0.1cm
+{\bf Sensores} \vskip 0.1cm
 La percepción del entorno se hace a través de una cámara web, en la sección 2.4.1 vemos distintos tipos de cámaras y los criterios que vamos a evaluar, esto lo podemos expresar en la siguiente tabla:
 
 \begin{table}[h!]
@@ -1273,9 +1290,10 @@ Zoom digital & 5 & 5 & 3 \\ \hline
 
 De acuerdo a los resultados de la comparación decidimos utilizar la cámara web {\bf Hd Logitech C270.}
 \vskip 0.1cm
+{\bf Actuadores:} \vskip 0.1cm
+La salida se mostrará en el monitor del computador, indicando si fue reconocido la expresión facial.
 
-\subsection{Programa del agente}
-
+\item[•] {\bf Programa del agente:} \vskip 0.1cm
 Las etapas del proceso de visión computacional que se aplicó sobre la secuencia dinámica de imágenes presentada en la sección 2.4, son comparadas y se escogió al más adecuado para el reconocimiento, todo ello se presenta a continuación.
 
 \begin{enumerate}
@@ -1371,6 +1389,8 @@ Cantidad de píxeles en el objeto & 3 & 4 & 3 \\ \hline
 
 En base a los resultados obtenidos, la técnica de descripción que se debería emplear es el Patrón binario local (LBP).
 
+\vskip 3cm
+
 {\bf \item Reconocimiento e interpretación:}
 
 \begin{table}[h!]
@@ -1391,27 +1411,7 @@ Eficiencia reconocimiento & 3 & 4 & 3 \\ \hline
 \end{table}
 
 \end{enumerate}
-
-
-\subsection{Actuador}
-
-La salida se mostrará en pantalla del monitor de la computadora del agente, indicando si fue reconocido la expresión facial.
-
-\subsection{Diagrama de flujo del diseño del agente inteligente}
-
-Luego de comparar y seleccionar tanto el sensor, actuador y los algoritmos del programa del agente inteligente recopilamos los resultados y estructuramos el siguiente diagrama de flujo:
-
-\begin{figure}[ht]
-\begin{center}
-\includegraphics[width=0.9\textwidth]{diagrama2}
-\end{center}
-\begin{center}
-\vskip -0.5cm
-\caption{\small{Diagrama de flujo del agente inteligente.}}
-{\small{Fuente: Elaboración propia.}}
-\end{center}
-\end{figure}
-
+\end{itemize}
 
 
 \chapter{Resultados y discusión de la tesis}
