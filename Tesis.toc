@@ -50,14 +50,17 @@
 \contentsline {subsection}{\numberline {3.1.2}Tipo de agente}{68}% 
 \contentsline {subsection}{\numberline {3.1.3}Funci\IeC {\'o}n del agente}{68}% 
 \contentsline {subsection}{\numberline {3.1.4}Programa del agente}{69}% 
-\contentsline {subsection}{\numberline {3.1.5}Dise\IeC {\~n}o del agente inteligente}{69}% 
-\contentsline {section}{\numberline {3.2}Clasificaci\IeC {\'o}n de algoritmos}{70}% 
-\contentsline {chapter}{\numberline {4}Resultados y discusi\IeC {\'o}n de la tesis}{76}% 
-\contentsline {section}{\numberline {4.1}Te\IeC {\'o}ricos}{76}% 
-\contentsline {section}{\numberline {4.2}Computacionales}{80}% 
-\contentsline {chapter}{\numberline {5}Consideraciones finales}{92}% 
-\contentsline {section}{\numberline {5.1}Conclusiones}{92}% 
-\contentsline {section}{\numberline {5.2}Trabajos futuros}{93}% 
-\contentsline {chapter}{\numberline {A}Primer apendice}{98}% 
-\contentsline {chapter}{\numberline {B}Segundo apendice}{103}% 
+\contentsline {section}{\numberline {3.2}Dise\IeC {\~n}o del agente inteligente}{69}% 
+\contentsline {subsection}{\numberline {3.2.1}Sensor}{71}% 
+\contentsline {subsection}{\numberline {3.2.2}Programa del agente}{72}% 
+\contentsline {subsection}{\numberline {3.2.3}Actuador}{75}% 
+\contentsline {subsection}{\numberline {3.2.4}Diagrama de flujo del dise\IeC {\~n}o del agente inteligente}{75}% 
+\contentsline {chapter}{\numberline {4}Resultados y discusi\IeC {\'o}n de la tesis}{77}% 
+\contentsline {section}{\numberline {4.1}Te\IeC {\'o}ricos}{77}% 
+\contentsline {section}{\numberline {4.2}Computacionales}{81}% 
+\contentsline {chapter}{\numberline {5}Consideraciones finales}{93}% 
+\contentsline {section}{\numberline {5.1}Conclusiones}{93}% 
+\contentsline {section}{\numberline {5.2}Trabajos futuros}{94}% 
+\contentsline {chapter}{\numberline {A}Primer apendice}{99}% 
+\contentsline {chapter}{\numberline {B}Segundo apendice}{104}% 
 \vspace {2em}

@@ -1216,7 +1216,8 @@ El programa se encarga de descomponer y analizar la secuencia de imágenes, real
 \item[•] Reconocimiento e interpretación
 \end{itemize}
 
-\subsection{Diseño del agente inteligente}
+
+\section{Diseño del agente inteligente}
 Teniendo en cuenta todos los elementos vistos en los puntos anteriores podemos proseguir con el diseño de nuestro agente inteligente, el cual mediante el sensor (cámara) percibe las secuencias dinámicas de imágenes con expresiones faciales, las evalúa según los pasos de visión artificial y muestra en la pantalla del actuador (computador) la expresión reconocida. para una mejor visualización podemos observar la figura 3.1.
 
 \begin{figure}[ht]
@@ -1232,7 +1233,6 @@ Teniendo en cuenta todos los elementos vistos en los puntos anteriores podemos p
 
 \vskip 3cm
 
-\section{Clasificación de algoritmos}
 En cada etapa del diseño vamos a ver distintos criterios que usaremos para evaluar tanto en la parte de las cámaras como en los algoritmos del programa para el agente. El criterio de evaluación para los procesos está basado en una escala del 0 al 5.
 
 \begin{table}[ht!]
@@ -1248,9 +1248,8 @@ No aplica & Malo & Regular & Normal & Bueno & Muy bueno \\ \hline
 \end{table}
 \vskip 3cm
 
-\begin{itemize}
-\item[•] {\bf Arquitectura:} \vskip 0.1cm
-{\bf Sensores} \vskip 0.1cm
+\subsection{Sensor}
+
 La percepción del entorno se hace a través de una cámara web, en la sección 2.4.1 vemos distintos tipos de cámaras y los criterios que vamos a evaluar, esto lo podemos expresar en la siguiente tabla:
 
 \begin{table}[h!]
@@ -1274,10 +1273,9 @@ Zoom digital & 5 & 5 & 3 \\ \hline
 
 De acuerdo a los resultados de la comparación decidimos utilizar la cámara web {\bf Hd Logitech C270.}
 \vskip 0.1cm
-{\bf Actuadores:} \vskip 0.1cm
-La salida se mostrará en el monitor del computador, indicando si fue reconocido la expresión facial.
 
-\item[•] {\bf Programa del agente:} \vskip 0.1cm
+\subsection{Programa del agente}
+
 Las etapas del proceso de visión computacional que se aplicó sobre la secuencia dinámica de imágenes presentada en la sección 2.4, son comparadas y se escogió al más adecuado para el reconocimiento, todo ello se presenta a continuación.
 
 \begin{enumerate}
@@ -1373,8 +1371,6 @@ Cantidad de píxeles en el objeto & 3 & 4 & 3 \\ \hline
 
 En base a los resultados obtenidos, la técnica de descripción que se debería emplear es el Patrón binario local (LBP).
 
-\vskip 3cm
-
 {\bf \item Reconocimiento e interpretación:}
 
 \begin{table}[h!]
@@ -1395,7 +1391,27 @@ Eficiencia reconocimiento & 3 & 4 & 3 \\ \hline
 \end{table}
 
 \end{enumerate}
-\end{itemize}
+
+
+\subsection{Actuador}
+
+La salida se mostrará en pantalla del monitor de la computadora del agente, indicando si fue reconocido la expresión facial.
+
+\subsection{Diagrama de flujo del diseño del agente inteligente}
+
+Luego de comparar y seleccionar tanto el sensor, actuador y los algoritmos del programa del agente inteligente recopilamos los resultados y estructuramos el siguiente diagrama de flujo:
+
+\begin{figure}[ht]
+\begin{center}
+\includegraphics[width=0.9\textwidth]{diagrama2}
+\end{center}
+\begin{center}
+\vskip -0.5cm
+\caption{\small{Diagrama de flujo del agente inteligente.}}
+{\small{Fuente: Elaboración propia.}}
+\end{center}
+\end{figure}
+
 
 
 \chapter{Resultados y discusión de la tesis}
